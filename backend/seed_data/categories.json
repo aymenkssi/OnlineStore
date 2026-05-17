@@ -1,0 +1,479 @@
+[
+  {
+    "name": "Femme",
+    "slug": "femme",
+    "image": "https://images.unsplash.com/photo-1483985988355-763728e1935b?w=800&q=80",
+    "subcategories": [
+      {
+        "id": 1,
+        "name": "Vêtements",
+        "slug": "vetements",
+        "isPromotion": false,
+        "children": [
+          {
+            "id": 1,
+            "name": "Robes",
+            "slug": "robes"
+          },
+          {
+            "id": 2,
+            "name": "Tops & Blouses",
+            "slug": "tops-blouses"
+          },
+          {
+            "id": 3,
+            "name": "Pantalons",
+            "slug": "pantalons"
+          },
+          {
+            "id": 4,
+            "name": "Jupes",
+            "slug": "jupes"
+          },
+          {
+            "id": 5,
+            "name": "Vestes & Manteaux",
+            "slug": "vestes-manteaux"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Chaussures",
+        "slug": "chaussures",
+        "isPromotion": false,
+        "children": [
+          {
+            "id": 1,
+            "name": "Talons",
+            "slug": "talons"
+          },
+          {
+            "id": 2,
+            "name": "Baskets",
+            "slug": "baskets"
+          },
+          {
+            "id": 3,
+            "name": "Bottes",
+            "slug": "bottes"
+          },
+          {
+            "id": 4,
+            "name": "Sandales",
+            "slug": "sandales"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Sacs",
+        "slug": "sacs",
+        "isPromotion": false,
+        "children": [
+          {
+            "id": 1,
+            "name": "Sacs à main",
+            "slug": "sacs-a-main"
+          },
+          {
+            "id": 2,
+            "name": "Pochettes",
+            "slug": "pochettes"
+          },
+          {
+            "id": 3,
+            "name": "Sacs à dos",
+            "slug": "sacs-a-dos"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Lingerie",
+        "slug": "lingerie",
+        "isPromotion": false,
+        "children": [
+          {
+            "id": 1,
+            "name": "Soutiens-gorge",
+            "slug": "soutiens-gorge"
+          },
+          {
+            "id": 2,
+            "name": "Pyjamas",
+            "slug": "pyjamas-femme"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Promotions",
+        "slug": "promotions",
+        "isPromotion": true,
+        "children": []
+      }
+    ],
+    "id": 1,
+    "translations": {
+      "fr": {
+        "name": "Femme"
+      },
+      "en": {
+        "name": "Women"
+      },
+      "ar": {
+        "name": "نساء"
+      }
+    }
+  },
+  {
+    "name": "Homme",
+    "slug": "homme",
+    "image": "https://images.unsplash.com/photo-1763771444795-85740205e3e9?w=800&q=80",
+    "subcategories": [
+      {
+        "id": 1,
+        "name": "Vêtements",
+        "slug": "vetements",
+        "isPromotion": false,
+        "children": [
+          {
+            "id": 1,
+            "name": "Chemises",
+            "slug": "chemises"
+          },
+          {
+            "id": 2,
+            "name": "T-shirts & Polos",
+            "slug": "tshirts-polos"
+          },
+          {
+            "id": 3,
+            "name": "Pantalons & Jeans",
+            "slug": "pantalons-jeans"
+          },
+          {
+            "id": 4,
+            "name": "Pulls & Sweats",
+            "slug": "pulls-sweats"
+          },
+          {
+            "id": 5,
+            "name": "Vestes & Manteaux",
+            "slug": "vestes-manteaux"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Costumes",
+        "slug": "costumes",
+        "isPromotion": false,
+        "children": [
+          {
+            "id": 1,
+            "name": "Blazers",
+            "slug": "blazers"
+          },
+          {
+            "id": 2,
+            "name": "Pantalons habillés",
+            "slug": "pantalons-habilles"
+          },
+          {
+            "id": 3,
+            "name": "Costumes complets",
+            "slug": "costumes-complets"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Chaussures",
+        "slug": "chaussures",
+        "isPromotion": false,
+        "children": [
+          {
+            "id": 1,
+            "name": "Sneakers",
+            "slug": "sneakers"
+          },
+          {
+            "id": 2,
+            "name": "Chaussures habillées",
+            "slug": "chaussures-habillees"
+          },
+          {
+            "id": 3,
+            "name": "Boots",
+            "slug": "boots"
+          },
+          {
+            "id": 4,
+            "name": "Mocassins",
+            "slug": "mocassins"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Promotions",
+        "slug": "promotions",
+        "isPromotion": true,
+        "children": []
+      }
+    ],
+    "id": 2,
+    "translations": {
+      "fr": {
+        "name": "Homme"
+      },
+      "en": {
+        "name": "Men"
+      },
+      "ar": {
+        "name": "رجال"
+      }
+    }
+  },
+  {
+    "name": "Enfant",
+    "slug": "enfant",
+    "image": "https://images.unsplash.com/photo-1503919545889-aef636e10ad4?w=800&q=80",
+    "subcategories": [
+      {
+        "id": 1,
+        "name": "Filles",
+        "slug": "filles",
+        "isPromotion": false,
+        "children": [
+          {
+            "id": 1,
+            "name": "Robes & Jupes",
+            "slug": "robes-jupes"
+          },
+          {
+            "id": 2,
+            "name": "Tops & T-shirts",
+            "slug": "tops-tshirts-filles"
+          },
+          {
+            "id": 3,
+            "name": "Pantalons",
+            "slug": "pantalons-filles"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Garçons",
+        "slug": "garcons",
+        "isPromotion": false,
+        "children": [
+          {
+            "id": 1,
+            "name": "T-shirts & Polos",
+            "slug": "tshirts-polos-garcons"
+          },
+          {
+            "id": 2,
+            "name": "Pantalons & Jeans",
+            "slug": "pantalons-jeans-garcons"
+          },
+          {
+            "id": 3,
+            "name": "Vestes",
+            "slug": "vestes-garcons"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Bébé",
+        "slug": "bebe",
+        "isPromotion": false,
+        "children": [
+          {
+            "id": 1,
+            "name": "Bodies & Grenouillères",
+            "slug": "bodies-grenouilleres"
+          },
+          {
+            "id": 2,
+            "name": "Pyjamas",
+            "slug": "pyjamas-bebe"
+          },
+          {
+            "id": 3,
+            "name": "Ensembles",
+            "slug": "ensembles-bebe"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Chaussures Enfant",
+        "slug": "chaussures-enfant",
+        "isPromotion": false,
+        "children": [
+          {
+            "id": 1,
+            "name": "Baskets",
+            "slug": "baskets-enfant"
+          },
+          {
+            "id": 2,
+            "name": "Sandales",
+            "slug": "sandales-enfant"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Promotions",
+        "slug": "promotions",
+        "isPromotion": true,
+        "children": []
+      }
+    ],
+    "id": 3,
+    "translations": {
+      "fr": {
+        "name": "Enfant"
+      },
+      "en": {
+        "name": "Kids"
+      },
+      "ar": {
+        "name": "أطفال"
+      }
+    }
+  },
+  {
+    "name": "Accessoires",
+    "slug": "accessoires",
+    "image": "https://images.unsplash.com/photo-1602532360508-595f449c7c55?w=800&q=80",
+    "subcategories": [
+      {
+        "id": 1,
+        "name": "Bijoux",
+        "slug": "bijoux",
+        "isPromotion": false,
+        "children": [
+          {
+            "id": 1,
+            "name": "Colliers",
+            "slug": "colliers"
+          },
+          {
+            "id": 2,
+            "name": "Bracelets",
+            "slug": "bracelets"
+          },
+          {
+            "id": 3,
+            "name": "Boucles d'oreilles",
+            "slug": "boucles-oreilles"
+          },
+          {
+            "id": 4,
+            "name": "Bagues",
+            "slug": "bagues"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Montres",
+        "slug": "montres",
+        "isPromotion": false,
+        "children": [
+          {
+            "id": 1,
+            "name": "Montres classiques",
+            "slug": "montres-classiques"
+          },
+          {
+            "id": 2,
+            "name": "Montres sport",
+            "slug": "montres-sport"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Lunettes",
+        "slug": "lunettes",
+        "isPromotion": false,
+        "children": [
+          {
+            "id": 1,
+            "name": "Lunettes de soleil",
+            "slug": "lunettes-soleil"
+          },
+          {
+            "id": 2,
+            "name": "Lunettes optiques",
+            "slug": "lunettes-optiques"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Écharpes & Foulards",
+        "slug": "echarpes-foulards",
+        "isPromotion": false,
+        "children": [
+          {
+            "id": 1,
+            "name": "Écharpes",
+            "slug": "echarpes"
+          },
+          {
+            "id": 2,
+            "name": "Foulards",
+            "slug": "foulards"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Ceintures",
+        "slug": "ceintures",
+        "isPromotion": false,
+        "children": [
+          {
+            "id": 1,
+            "name": "Ceintures cuir",
+            "slug": "ceintures-cuir"
+          },
+          {
+            "id": 2,
+            "name": "Ceintures tissu",
+            "slug": "ceintures-tissu"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Promotions",
+        "slug": "promotions",
+        "isPromotion": true,
+        "children": []
+      }
+    ],
+    "id": 4,
+    "translations": {
+      "fr": {
+        "name": "Accessoires"
+      },
+      "en": {
+        "name": "Accessories"
+      },
+      "ar": {
+        "name": "إكسسوارات"
+      }
+    }
+  }
+]

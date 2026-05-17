@@ -1,0 +1,51 @@
+[
+  {
+    "id": "ac76378c-606d-49c0-9882-922d0394e0ae",
+    "return_number": "RET-20260102-X1Y2Z3W4",
+    "order_id": "sample-order-1",
+    "order_number": "ORD-20260101-A1B2C3D4",
+    "customer_email": "client.test@email.com",
+    "customer_name": "Client Test",
+    "items": [
+      {
+        "product_id": "3",
+        "name": "Baskets Designer",
+        "quantity": 1,
+        "price": 650,
+        "reason": "Mauvaise taille"
+      }
+    ],
+    "reason": "Mauvaise taille",
+    "description": "Les chaussures sont trop petites, je souhaite échanger pour une taille supérieure.",
+    "refund_amount": 650,
+    "status": "pending",
+    "refund_status": "pending",
+    "created_at": "2026-01-02T11:00:00Z",
+    "updated_at": "2026-01-02T11:00:00Z"
+  },
+  {
+    "id": "7e27b10e-2822-43ce-92c0-93e0d6258984",
+    "return_number": "RET-20260103-A5B6C7D8",
+    "order_id": "sample-order-2",
+    "order_number": "ORD-20251228-E5F6G7H8",
+    "customer_email": "autre.client@email.com",
+    "customer_name": "Autre Client",
+    "items": [
+      {
+        "product_id": "6",
+        "name": "Pull en Cachemire",
+        "quantity": 1,
+        "price": 340,
+        "reason": "Défaut de fabrication"
+      }
+    ],
+    "reason": "Défaut de fabrication",
+    "description": "Le pull présente un trou au niveau de la couture.",
+    "refund_amount": 340,
+    "status": "approved",
+    "refund_status": "pending",
+    "admin_notes": "Défaut confirmé, remboursement autorisé",
+    "created_at": "2026-01-03T14:30:00Z",
+    "updated_at": "2026-01-03T16:00:00Z"
+  }
+]

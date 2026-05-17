@@ -1,0 +1,74 @@
+[
+  {
+    "items": [
+      {
+        "product_id": "8044ff1f-99f4-4a34-9362-35e08d14851c",
+        "name": "Escarpins Cuir Verni",
+        "price": 159.99,
+        "quantity": 1,
+        "color": "Noir",
+        "size": "37",
+        "image": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=800&q=80"
+      }
+    ],
+    "shipping_address": {
+      "firstName": "Test1",
+      "lastName": "TEST1",
+      "address": "13 Rue Franz Schubert",
+      "city": "Nanterre ",
+      "postalCode": "12345",
+      "country": "France",
+      "phone": "+3312345678"
+    },
+    "subtotal": 159.99,
+    "shipping_cost": 10.0,
+    "discount": 0.0,
+    "total": 169.99,
+    "coupon_code": null,
+    "payment_method": "cashOnDelivery",
+    "customer_email": "aymenkssi@gmail.com",
+    "customer_name": "Test1 TEST1",
+    "id": "d95f1529-b5ba-4be9-8e70-f42fe7df0948",
+    "order_number": "ORD-20260419-AF9D2B31",
+    "status": "pending",
+    "payment_status": "pending",
+    "created_at": "2026-04-19T19:36:26.747990+00:00",
+    "updated_at": "2026-04-19T19:36:26.747999+00:00"
+  },
+  {
+    "items": [
+      {
+        "product_id": "c4d5490e-6d6f-43ee-8a7b-75501386d43e",
+        "name": "T-shirt Enfant Coloré",
+        "price": 24.99,
+        "quantity": 1,
+        "color": "Noir",
+        "size": "8Y",
+        "image": "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=400"
+      }
+    ],
+    "shipping_address": {
+      "firstName": "JEAN",
+      "lastName": "ZAY",
+      "address": "square du cols de villaine",
+      "city": "Massy",
+      "postalCode": "91300",
+      "country": "France",
+      "phone": "+3312345678"
+    },
+    "subtotal": 24.99,
+    "shipping_cost": 10.0,
+    "discount": 0.0,
+    "total": 34.989999999999995,
+    "coupon_code": null,
+    "payment_method": "cashOnDelivery",
+    "customer_email": "aymenkssi@yahoo.fr",
+    "customer_name": "JEAN ZAY",
+    "id": "9031b271-fdc8-48e1-b66d-2d6ba3941855",
+    "order_number": "ORD-20260419-A5291072",
+    "status": "pending",
+    "payment_status": "pending",
+    "created_at": "2026-04-19T19:39:10.266652+00:00",
+    "updated_at": "2026-04-19T19:39:10.266660+00:00"
+  }
+]

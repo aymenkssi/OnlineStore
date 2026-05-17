@@ -1,0 +1,69 @@
+[
+  {
+    "name": "aymen",
+    "email": "adridi@fr.scc.com",
+    "subject": "ezzz",
+    "message": "https://smld5lde.r.us-east-1.awstrack.me/L0/https:%2F%2Fapp.emergent.sh%2Fconfirm-email%3Ftoken=7e66f499-fe12-47a4-a143-3d5e31674825%26return_url=https%253A%252F%252Fapp.emergent.sh%252Factivate/1/0100019d97ed429e-368e12d8-4ffd-4677-8b89-0fd551eb1faa-000000/wVtjA3ta4ZP_PjuqS9BimWBstjI=473",
+    "status": "new",
+    "created_at": "2026-04-17T21:43:43.043137+00:00"
+  },
+  {
+    "name": "Test User",
+    "email": "test@test.com",
+    "subject": "Test",
+    "message": "Ceci est un test",
+    "status": "new",
+    "created_at": "2026-04-17T21:47:00.004442+00:00"
+  },
+  {
+    "name": "Jean Dupont",
+    "email": "jean.dupont@email.com",
+    "subject": "Question sur une commande",
+    "message": "Bonjour, je voudrais avoir des informations sur le suivi de ma commande. Merci.",
+    "status": "new",
+    "created_at": "2026-04-17T21:47:27.466683+00:00"
+  },
+  {
+    "name": "aymen",
+    "email": "aymenkssi@yahoo.fr",
+    "subject": "zaa",
+    "message": "aaaaaaaaaaaaaaaaaaaaaaaa",
+    "status": "new",
+    "created_at": "2026-04-17T21:49:56.217114+00:00"
+  },
+  {
+    "name": "aymen",
+    "email": "aymenkssi@yahoo.fr",
+    "subject": "AAAAAAAAAAAAA",
+    "message": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+    "status": "new",
+    "created_at": "2026-04-17T22:03:25.365385+00:00"
+  },
+  {
+    "name": "Test Resend",
+    "email": "test@test.com",
+    "subject": "Test Email Resend",
+    "message": "Ce message devrait être envoyé par email via Resend.",
+    "status": "sent",
+    "email_sent": true,
+    "created_at": "2026-04-17T22:06:51.416685+00:00"
+  },
+  {
+    "name": "aymen",
+    "email": "aymenkssi@yahoo.fr",
+    "subject": "zaaaaaaaaaa",
+    "message": "zdddddddddddddd",
+    "status": "sent",
+    "email_sent": true,
+    "created_at": "2026-04-17T22:08:14.381863+00:00"
+  },
+  {
+    "name": "DRIDI",
+    "email": "aymenkssi@yahoo.fr",
+    "subject": "Nettoyant ultrason Profond 360°",
+    "message": "zaddddddddddddddd",
+    "status": "sent",
+    "email_sent": true,
+    "created_at": "2026-04-17T22:14:25.706225+00:00"
+  }
+]

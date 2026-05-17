@@ -3,6 +3,13 @@
     pointer-events: none;
 }
 
+/* Hide Emergent badge */
+#root > div[style*="position"],
+body > div[style*="position: fixed"],
+body > div > a[style*="position: fixed"] {
+    display: none !important;
+}
+
 @media (prefers-reduced-motion: no-preference) {
     .App-logo {
         animation: App-logo-spin infinite 20s linear;

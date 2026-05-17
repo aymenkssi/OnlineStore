@@ -1,0 +1,194 @@
+.loading-screen {
+  position: fixed;
+  inset: 0;
+  background: linear-gradient(135deg, #1a1a2e 0%, #0f0f1e 50%, #1a1a2e 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  z-index: 9999;
+}
+
+.stars-container {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.star-burst {
+  position: absolute;
+  animation: burst var(--duration, 1s) ease-out infinite;
+  animation-delay: var(--delay, 0s);
+}
+
+.star-particle {
+  width: var(--size, 6px);
+  height: var(--size, 6px);
+  background: radial-gradient(circle, #fff 0%, #ffd700 50%, transparent 70%);
+  border-radius: 50%;
+  box-shadow: 0 0 10px #ffd700, 0 0 20px #ffd700, 0 0 30px #ffd700;
+}
+
+@keyframes burst {
+  0% {
+    transform: rotate(var(--angle, 0deg)) translateX(0) scale(0);
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(var(--angle, 0deg)) translateX(300px) scale(1);
+    opacity: 0;
+  }
+}
+
+.center-content {
+  position: relative;
+  z-index: 10;
+  text-align: center;
+}
+
+.perspective-container {
+  perspective: 1000px;
+  margin-bottom: 2rem;
+}
+
+.rotating-logo {
+  animation: rotate3d 3s ease-in-out infinite;
+  transform-style: preserve-3d;
+}
+
+.logo-text {
+  font-size: 4rem;
+  font-weight: bold;
+  color: white;
+  letter-spacing: 0.1em;
+  text-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  margin: 0;
+}
+
+@keyframes rotate3d {
+  0%, 100% {
+    transform: rotateY(0deg) rotateX(0deg);
+  }
+  25% {
+    transform: rotateY(15deg) rotateX(5deg);
+  }
+  50% {
+    transform: rotateY(0deg) rotateX(10deg);
+  }
+  75% {
+    transform: rotateY(-15deg) rotateX(5deg);
+  }
+}
+
+.loading-dots-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  color: #d1d5db;
+  animation: pulse 2s ease-in-out infinite;
+}
+
+.dots-wrapper {
+  display: flex;
+  gap: 0.25rem;
+}
+
+.dot {
+  width: 0.5rem;
+  height: 0.5rem;
+  background: white;
+  border-radius: 50%;
+  animation: bounce 1.4s ease-in-out infinite;
+}
+
+.dot-1 {
+  animation-delay: 0s;
+}
+
+.dot-2 {
+  animation-delay: 0.2s;
+}
+
+.dot-3 {
+  animation-delay: 0.4s;
+}
+
+@keyframes bounce {
+  0%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+}
+
+.loading-message {
+  font-size: 0.875rem;
+  letter-spacing: 0.05em;
+}
+
+.sparkles-container {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.sparkle {
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  background: white;
+  border-radius: 50%;
+  box-shadow: 0 0 10px white;
+  animation: sparkle-anim 2s ease-in-out infinite;
+}
+
+.sparkle-1 {
+  top: 20%;
+  left: 30%;
+  animation-delay: 0s;
+}
+
+.sparkle-2 {
+  top: 30%;
+  right: 25%;
+  animation-delay: 0.5s;
+}
+
+.sparkle-3 {
+  bottom: 30%;
+  left: 25%;
+  animation-delay: 1s;
+}
+
+.sparkle-4 {
+  bottom: 25%;
+  right: 30%;
+  animation-delay: 1.5s;
+}
+
+@keyframes sparkle-anim {
+  0%, 100% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.7;
+  }
+}

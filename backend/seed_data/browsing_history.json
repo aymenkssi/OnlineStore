@@ -1,0 +1,605 @@
+[
+  {
+    "id": "d70c102b-01d2-461c-9624-bd44515fed95",
+    "visitor_id": "1afa96c0-6a6e-46cb-83e7-7a7a11d30ed7",
+    "product_id": "test-123",
+    "category": "femme",
+    "subcategory": null,
+    "viewed_at": "2026-04-07T15:13:04.178491+00:00",
+    "view_count": 1
+  },
+  {
+    "id": "ddeac44b-472e-456c-87c8-3d63125889dd",
+    "visitor_id": "5ba308db-bb7d-4754-871b-0ba1830a4840",
+    "product_id": "test-product-123",
+    "category": "femme",
+    "subcategory": "robes",
+    "viewed_at": "2026-04-07T15:14:40.718542+00:00",
+    "view_count": 1
+  },
+  {
+    "id": "05bcedb3-fd98-4e6d-8d7a-53bfaa870ae0",
+    "visitor_id": "0511a505-f4dd-4e02-a957-7767485690cd",
+    "product_id": "test-product-123",
+    "category": "femme",
+    "subcategory": "robes",
+    "viewed_at": "2026-04-07T15:15:50.478484+00:00",
+    "view_count": 1
+  },
+  {
+    "id": "b6a090f0-aecc-40c9-b831-ecd076f1f293",
+    "visitor_id": "626da5ab-631c-4910-8673-ea74d646c82a",
+    "product_id": "9d7d7846-c0c5-485c-b0fd-12a3e9ccac8c",
+    "category": "femme",
+    "subcategory": null,
+    "viewed_at": "2026-04-07T15:15:50.836054+00:00",
+    "view_count": 1
+  },
+  {
+    "id": "1044a548-61f3-4d0a-98d1-090ac07e3b9d",
+    "visitor_id": "ec273f85-5f31-4740-90ad-0dd7344c36a4",
+    "product_id": "bbb1c304-7e97-481e-ac12-d3e6e56fa10d",
+    "category": "homme",
+    "subcategory": null,
+    "viewed_at": "2026-04-07T15:16:29.011805+00:00",
+    "view_count": 1
+  },
+  {
+    "id": "f42930e4-22c5-45d3-8b5c-57056d1c1f5c",
+    "visitor_id": "fa74f87d-f6c2-485e-b002-7f0b72159bdf",
+    "product_id": "bbb1c304-7e97-481e-ac12-d3e6e56fa10d",
+    "category": "homme",
+    "subcategory": null,
+    "viewed_at": "2026-04-07T15:16:29.033994+00:00",
+    "view_count": 1
+  },
+  {
+    "id": "0e4be0d2-4e64-411c-86aa-fc74cfe60512",
+    "visitor_id": "57e0c00d-f03b-4dd8-9cc4-cce69ee61a95",
+    "product_id": "bbb1c304-7e97-481e-ac12-d3e6e56fa10d",
+    "category": "homme",
+    "subcategory": null,
+    "viewed_at": "2026-04-07T15:17:02.614986+00:00",
+    "view_count": 1
+  },
+  {
+    "id": "d5de0fc9-031e-44df-b7ed-d77392e68be6",
+    "visitor_id": "031f0984-e732-45ed-9a1b-70887c392ec3",
+    "product_id": "bbb1c304-7e97-481e-ac12-d3e6e56fa10d",
+    "category": "homme",
+    "subcategory": null,
+    "viewed_at": "2026-04-07T15:17:02.623796+00:00",
+    "view_count": 1
+  },
+  {
+    "id": "f7fd8049-17fb-4364-87cf-229a8145eed4",
+    "visitor_id": "9cd5b380-4f32-4ced-8b30-a1c52ac92cb1",
+    "product_id": "test-product-123",
+    "category": "femme",
+    "subcategory": "robes",
+    "viewed_at": "2026-04-07T15:28:14.022194+00:00",
+    "view_count": 1
+  },
+  {
+    "id": "b5fae1db-9c9c-42b6-a71a-11c8ac0966c0",
+    "visitor_id": "4c4c9274-8e4e-4526-865f-0a6af5b4e3e3",
+    "product_id": "99d86195-69c0-47f9-bc86-565fb20863da",
+    "category": "homme",
+    "subcategory": "costume",
+    "viewed_at": "2026-04-09T19:55:26.954869+00:00",
+    "view_count": 1
+  },
+  {
+    "id": "0e22ba67-e0db-4b13-859a-5ae4ea26c0dd",
+    "visitor_id": "bb081f84-54a7-4a65-bf61-e27a4cfa47c4",
+    "product_id": "99d86195-69c0-47f9-bc86-565fb20863da",
+    "category": "homme",
+    "subcategory": "costume",
+    "viewed_at": "2026-04-09T19:55:27.076547+00:00",
+    "view_count": 1
+  },
+  {
+    "id": "94f52271-a101-40c2-b849-28e1820169dd",
+    "visitor_id": "70847df3-cab2-4dff-8d00-3c809bb9f697",
+    "product_id": "99d86195-69c0-47f9-bc86-565fb20863da",
+    "category": "homme",
+    "subcategory": "costume",
+    "viewed_at": "2026-04-09T20:04:04.602854+00:00",
+    "view_count": 1
+  },
+  {
+    "id": "befb9fa4-8a74-4a74-9dbb-79824d795406",
+    "visitor_id": "52744a67-f97d-4a17-b8c5-ed5f8aace44e",
+    "product_id": "99d86195-69c0-47f9-bc86-565fb20863da",
+    "category": "homme",
+    "subcategory": "costume",
+    "viewed_at": "2026-04-09T20:04:04.763837+00:00",
+    "view_count": 1
+  },
+  {
+    "id": "6ca6cbdd-e5b3-477b-857c-00198ad39793",
+    "visitor_id": "68b94f61-026e-4d45-b522-0e05cba807da",
+    "product_id": "99d86195-69c0-47f9-bc86-565fb20863da",
+    "category": "homme",
+    "subcategory": "costume",
+    "viewed_at": "2026-04-09T20:21:19.659013+00:00",
+    "view_count": 1
+  },
+  {
+    "id": "58900f7a-1262-4c02-ab28-2b937d5b52e5",
+    "visitor_id": "0ac49188-0688-45eb-97b8-d75bc80befa9",
+    "product_id": "99d86195-69c0-47f9-bc86-565fb20863da",
+    "category": "homme",
+    "subcategory": "costume",
+    "viewed_at": "2026-04-09T20:21:19.732573+00:00",
+    "view_count": 1
+  },
+  {
+    "id": "972b79c5-50c8-4e8c-b2af-1604547a519a",
+    "visitor_id": "5f752d31-1418-48a1-8f3b-e4ec1584d3ba",
+    "product_id": "9d7d7846-c0c5-485c-b0fd-12a3e9ccac8c",
+    "category": "femme",
+    "subcategory": null,
+    "viewed_at": "2026-04-09T20:39:15.560312+00:00",
+    "view_count": 1
+  },
+  {
+    "id": "78e75426-c4f8-46cf-975a-94f2ddcbe6e4",
+    "visitor_id": "b5a090bc-c874-4639-9999-d5880d08e896",
+    "product_id": "9d7d7846-c0c5-485c-b0fd-12a3e9ccac8c",
+    "category": "femme",
+    "subcategory": null,
+    "viewed_at": "2026-04-09T20:39:15.598204+00:00",
+    "view_count": 1
+  },
+  {
+    "id": "c7c98d42-06be-4274-aaad-7cb3612908bf",
+    "visitor_id": "236f0990-f0c1-488c-8b18-3f276efed1e2",
+    "product_id": "bbb1c304-7e97-481e-ac12-d3e6e56fa10d",
+    "category": "homme",
+    "subcategory": null,
+    "viewed_at": "2026-04-09T21:01:31.134789+00:00",
+    "view_count": 1
+  },
+  {
+    "id": "49e37431-692f-4069-9ff1-0720a9dd0819",
+    "visitor_id": "eeae3ed2-3aec-4de8-9d78-55317a501f5a",
+    "product_id": "bbb1c304-7e97-481e-ac12-d3e6e56fa10d",
+    "category": "homme",
+    "subcategory": null,
+    "viewed_at": "2026-04-09T21:01:31.266966+00:00",
+    "view_count": 1
+  },
+  {
+    "id": "1998b909-65eb-4c74-a169-cc025fa7c9ca",
+    "visitor_id": "ab7408cd-dabe-4272-9678-a5ebd0ffcfe5",
+    "product_id": "99d86195-69c0-47f9-bc86-565fb20863da",
+    "category": "homme",
+    "subcategory": "costume",
+    "viewed_at": "2026-04-09T21:01:34.691494+00:00",
+    "view_count": 1
+  },
+  {
+    "id": "05a8b4f1-a061-42b7-832e-6dfc5fc1c1b5",
+    "visitor_id": "4cdd49ec-0f06-4bc7-b016-b31a083be656",
+    "product_id": "99d86195-69c0-47f9-bc86-565fb20863da",
+    "category": "homme",
+    "subcategory": "costume",
+    "viewed_at": "2026-04-09T21:01:34.812461+00:00",
+    "view_count": 1
+  },
+  {
+    "id": "1dbb8b64-bab4-445b-a555-1c7b9909bb39",
+    "visitor_id": "79b4b3ba-28e8-48c0-bf67-c6992ffcdfcd",
+    "product_id": "99d86195-69c0-47f9-bc86-565fb20863da",
+    "category": "homme",
+    "subcategory": "costume",
+    "viewed_at": "2026-04-09T21:02:39.041110+00:00",
+    "view_count": 1
+  },
+  {
+    "id": "f92dafa4-1868-43e3-8178-7aa03ae10598",
+    "visitor_id": "f4aaeedb-765f-4482-8f7e-989f88e811e1",
+    "product_id": "99d86195-69c0-47f9-bc86-565fb20863da",
+    "category": "homme",
+    "subcategory": "costume",
+    "viewed_at": "2026-04-09T21:02:39.250184+00:00",
+    "view_count": 1
+  },
+  {
+    "id": "830121bb-75be-426e-b17c-fab381d52820",
+    "visitor_id": "65105e8f-f879-4347-807e-ea5368d1275a",
+    "product_id": "c4d5490e-6d6f-43ee-8a7b-75501386d43e",
+    "category": "enfant",
+    "subcategory": null,
+    "viewed_at": "2026-04-10T15:17:35.673552+00:00",
+    "view_count": 1
+  },
+  {
+    "id": "e72a72c8-8d6d-4f47-a144-8935442aa9fa",
+    "visitor_id": "ba94f8a5-eca0-46ac-ac61-a321e94fd918",
+    "product_id": "c4d5490e-6d6f-43ee-8a7b-75501386d43e",
+    "category": "enfant",
+    "subcategory": null,
+    "viewed_at": "2026-04-10T15:17:35.801627+00:00",
+    "view_count": 1
+  },
+  {
+    "id": "7700464f-ddee-4a91-843b-23d8b656e20b",
+    "visitor_id": "4977b66f-c469-4f35-9d57-d34eb02a1350",
+    "product_id": "bbb1c304-7e97-481e-ac12-d3e6e56fa10d",
+    "category": "homme",
+    "subcategory": null,
+    "viewed_at": "2026-04-10T15:39:59.731226+00:00",
+    "view_count": 1
+  },
+  {
+    "id": "1420deb1-0d73-45bf-b8b2-98e15cb80a27",
+    "visitor_id": "857c5cf7-6be9-4599-85df-8cd8b87c4162",
+    "product_id": "bbb1c304-7e97-481e-ac12-d3e6e56fa10d",
+    "category": "homme",
+    "subcategory": null,
+    "viewed_at": "2026-04-10T15:39:59.864785+00:00",
+    "view_count": 1
+  },
+  {
+    "id": "07b7fef4-8303-425d-ae2b-7d04c3cbbb49",
+    "visitor_id": "0bfa1221-9b2d-4fe8-97be-2fa8ae6adff7",
+    "product_id": "dc63b1c5-9b13-4e91-9e42-16f8c9ef3208",
+    "category": "homme",
+    "subcategory": null,
+    "viewed_at": "2026-04-10T15:46:52.019327+00:00",
+    "view_count": 1
+  },
+  {
+    "id": "d0eefed2-8ef3-450a-b2f4-979c9b095a39",
+    "visitor_id": "0a0dbe57-67b6-4b37-be6e-e5bc1dce01ab",
+    "product_id": "dc63b1c5-9b13-4e91-9e42-16f8c9ef3208",
+    "category": "homme",
+    "subcategory": null,
+    "viewed_at": "2026-04-10T15:46:52.157979+00:00",
+    "view_count": 1
+  },
+  {
+    "id": "2e620652-02fc-4a50-ba75-954a666c9a68",
+    "visitor_id": "436f6539-d225-4464-87cd-04c33f8e7c47",
+    "product_id": "bbb1c304-7e97-481e-ac12-d3e6e56fa10d",
+    "category": "homme",
+    "subcategory": null,
+    "viewed_at": "2026-04-10T20:41:23.934313+00:00",
+    "view_count": 1
+  },
+  {
+    "id": "d7d4fb47-5aa9-4f06-9f9b-361906d71119",
+    "visitor_id": "6ed2393c-1889-474b-9207-d2a949854713",
+    "product_id": "bbb1c304-7e97-481e-ac12-d3e6e56fa10d",
+    "category": "homme",
+    "subcategory": null,
+    "viewed_at": "2026-04-10T20:41:24.035808+00:00",
+    "view_count": 1
+  },
+  {
+    "id": "b4db8632-c65a-4006-b030-6980fe850ae9",
+    "visitor_id": "fe477fd8-31a4-4f57-96ed-5ed4abc3cf61",
+    "product_id": "bbb1c304-7e97-481e-ac12-d3e6e56fa10d",
+    "category": "homme",
+    "subcategory": null,
+    "viewed_at": "2026-04-11T21:17:31.813341+00:00",
+    "view_count": 1
+  },
+  {
+    "id": "05151d53-3693-4ef2-a843-b796076a9bee",
+    "visitor_id": "9f0dd86b-6f0f-44d8-807e-fb57c43f2be6",
+    "product_id": "bbb1c304-7e97-481e-ac12-d3e6e56fa10d",
+    "category": "homme",
+    "subcategory": null,
+    "viewed_at": "2026-04-11T21:17:31.820779+00:00",
+    "view_count": 1
+  },
+  {
+    "id": "680001bc-2250-4dc5-9190-f8801388a0d2",
+    "visitor_id": "9dfccaa6-31df-4c83-b9cc-55b63ac44858",
+    "product_id": "test-product-123",
+    "category": "femme",
+    "subcategory": "robes",
+    "viewed_at": "2026-04-16T09:08:32.516392+00:00",
+    "view_count": 1
+  },
+  {
+    "id": "20254418-2088-463d-8996-f349d9514c9f",
+    "visitor_id": "ef66dd90-a7a9-4964-8455-383d5ce5e7bb",
+    "product_id": "test-product-123",
+    "category": "femme",
+    "subcategory": "robes",
+    "viewed_at": "2026-04-16T09:08:48.712880+00:00",
+    "view_count": 1
+  },
+  {
+    "id": "243edb4c-7098-46bf-945d-c0de5fe18c03",
+    "visitor_id": "1a053305-9e39-48d1-84e1-1aa9edbf50d2",
+    "product_id": "bbb1c304-7e97-481e-ac12-d3e6e56fa10d",
+    "category": "homme",
+    "subcategory": "",
+    "viewed_at": "2026-04-16T09:10:47.678187+00:00",
+    "view_count": 1
+  },
+  {
+    "id": "a4136180-e298-4c8c-b4e9-e0f1378687fe",
+    "visitor_id": "b504c8de-f8df-410e-bc97-d1c7e4962790",
+    "product_id": "bbb1c304-7e97-481e-ac12-d3e6e56fa10d",
+    "category": "homme",
+    "subcategory": "",
+    "viewed_at": "2026-04-16T09:10:47.777782+00:00",
+    "view_count": 1
+  },
+  {
+    "id": "0844a49d-141c-497d-a99e-5039653167a9",
+    "visitor_id": "f43f4305-08a6-4410-8838-b0027170b004",
+    "product_id": "bbb1c304-7e97-481e-ac12-d3e6e56fa10d",
+    "category": "homme",
+    "subcategory": "",
+    "viewed_at": "2026-04-16T10:08:53.900301+00:00",
+    "view_count": 1
+  },
+  {
+    "id": "8fdd616a-a494-412b-b003-8d2b9412822e",
+    "visitor_id": "e24cc83a-d7be-4be2-8080-52aaaab40717",
+    "product_id": "bbb1c304-7e97-481e-ac12-d3e6e56fa10d",
+    "category": "homme",
+    "subcategory": "",
+    "viewed_at": "2026-04-16T10:08:53.972837+00:00",
+    "view_count": 1
+  },
+  {
+    "id": "b6d3d372-d090-4793-9a08-c1e6f3d0f076",
+    "visitor_id": "ec8c1edf-c857-451d-90f9-556e0be37282",
+    "product_id": "test-product-123",
+    "category": "femme",
+    "subcategory": "robes",
+    "viewed_at": "2026-04-16T10:16:55.939564+00:00",
+    "view_count": 1
+  },
+  {
+    "id": "14c2a26a-7e3a-406c-a8f4-ceb8d8dbe958",
+    "visitor_id": "398de3b8-c76c-48af-afed-0f5d4f405c6f",
+    "product_id": "test-product-123",
+    "category": "femme",
+    "subcategory": "robes",
+    "viewed_at": "2026-04-16T10:17:08.924585+00:00",
+    "view_count": 1
+  },
+  {
+    "id": "f3e1212c-7672-4653-b28c-0a5fcb9f5649",
+    "visitor_id": "7ddf76f1-691d-48bf-9336-63db63acf392",
+    "product_id": "test-product-123",
+    "category": "femme",
+    "subcategory": "robes",
+    "viewed_at": "2026-04-16T10:17:24.398971+00:00",
+    "view_count": 1
+  },
+  {
+    "id": "c9dd390c-35dd-4dcb-82a4-9bcf9a5b5d68",
+    "visitor_id": "fb8943bc-61bf-4114-bbd2-35a532d077b1",
+    "product_id": "test-product-123",
+    "category": "femme",
+    "subcategory": "robes",
+    "viewed_at": "2026-04-16T10:17:52.098335+00:00",
+    "view_count": 1
+  },
+  {
+    "id": "c4631b19-1ef6-4b3f-a09f-b2042e053cc4",
+    "visitor_id": "f22a5fc5-f66b-4408-b561-4d616e1b1c0b",
+    "product_id": "c4d5490e-6d6f-43ee-8a7b-75501386d43e",
+    "category": "enfant",
+    "subcategory": "",
+    "viewed_at": "2026-04-16T10:38:08.350263+00:00",
+    "view_count": 1
+  },
+  {
+    "id": "fed0bb59-8668-4297-92eb-387a3fab6dd1",
+    "visitor_id": "d8fa7df9-60e0-4edc-b3d5-445a2ba2f8d3",
+    "product_id": "c4d5490e-6d6f-43ee-8a7b-75501386d43e",
+    "category": "enfant",
+    "subcategory": "",
+    "viewed_at": "2026-04-16T10:38:08.356225+00:00",
+    "view_count": 1
+  },
+  {
+    "id": "3cf879b8-fc05-4aff-9550-cc06f6a69efa",
+    "visitor_id": "9650ce10-d47e-45fc-922e-c656679dcf4a",
+    "product_id": "test-product-123",
+    "category": "femme",
+    "subcategory": "robes",
+    "viewed_at": "2026-04-16T11:56:48.268592+00:00",
+    "view_count": 1
+  },
+  {
+    "id": "5888862c-ea56-4f33-995c-525caab78647",
+    "visitor_id": "99d5d0d9-be1c-4aec-8273-6e7b2497ff22",
+    "product_id": "test-product-123",
+    "category": "femme",
+    "subcategory": "robes",
+    "viewed_at": "2026-04-16T12:01:51.426788+00:00",
+    "view_count": 1
+  },
+  {
+    "id": "72db5c5e-7824-454a-bfe4-2145b293720b",
+    "visitor_id": "50d772ab-f5b5-45ec-88f0-f56d47534137",
+    "product_id": "bbb1c304-7e97-481e-ac12-d3e6e56fa10d",
+    "category": "homme",
+    "subcategory": "",
+    "viewed_at": "2026-04-16T21:04:09.330939+00:00",
+    "view_count": 1
+  },
+  {
+    "id": "423a05c1-423b-4ccb-9fc0-472603bed01f",
+    "visitor_id": "fe6ec62a-5e7d-477e-8dea-83c92715634b",
+    "product_id": "bbb1c304-7e97-481e-ac12-d3e6e56fa10d",
+    "category": "homme",
+    "subcategory": "",
+    "viewed_at": "2026-04-16T21:04:09.365265+00:00",
+    "view_count": 1
+  },
+  {
+    "id": "b6de420f-b901-41df-839e-7cadb10c482b",
+    "visitor_id": "f81a8ae9-fba9-453b-b00a-f72eb6cc5e37",
+    "product_id": "7288a44e-47e9-4f4f-8624-ede5e33fbeba",
+    "category": "homme",
+    "subcategory": "vetements",
+    "viewed_at": "2026-04-16T21:48:36.222873+00:00",
+    "view_count": 1
+  },
+  {
+    "id": "9740b9a5-7044-4f39-9e27-ce6c34c0708b",
+    "visitor_id": "93a2c955-3e92-4ac8-af02-4055e53ed140",
+    "product_id": "7288a44e-47e9-4f4f-8624-ede5e33fbeba",
+    "category": "homme",
+    "subcategory": "vetements",
+    "viewed_at": "2026-04-16T21:48:36.486809+00:00",
+    "view_count": 1
+  },
+  {
+    "id": "aa75702e-eb98-4f8d-8165-fbf28de0e649",
+    "visitor_id": "e8e44890-3848-44d9-a9f6-0c15eb439f83",
+    "product_id": "dd0566e2-942a-4370-8009-ce24803b0acc",
+    "category": "femme",
+    "subcategory": "vetements",
+    "viewed_at": "2026-04-16T23:57:26.455511+00:00",
+    "view_count": 1
+  },
+  {
+    "id": "94a6def8-f48b-438d-8a35-2c71c3c92139",
+    "visitor_id": "2e786d90-96a9-4b31-b011-56f5e25d022b",
+    "product_id": "dd0566e2-942a-4370-8009-ce24803b0acc",
+    "category": "femme",
+    "subcategory": "vetements",
+    "viewed_at": "2026-04-16T23:57:26.504453+00:00",
+    "view_count": 1
+  },
+  {
+    "id": "ec337d23-321c-4bbc-8cf0-f91f98cc9f1b",
+    "visitor_id": "250589e9-85f9-4cae-b954-8701874bcc9f",
+    "product_id": "7288a44e-47e9-4f4f-8624-ede5e33fbeba",
+    "category": "homme",
+    "subcategory": "vetements",
+    "viewed_at": "2026-04-17T21:16:53.204138+00:00",
+    "view_count": 1
+  },
+  {
+    "id": "cee42f71-ac22-4986-bf35-69cc92f0707e",
+    "visitor_id": "1860092d-98ea-46ee-8b1c-214a29de84f4",
+    "product_id": "7288a44e-47e9-4f4f-8624-ede5e33fbeba",
+    "category": "homme",
+    "subcategory": "vetements",
+    "viewed_at": "2026-04-17T21:16:53.302113+00:00",
+    "view_count": 1
+  },
+  {
+    "id": "fe7f0d6b-ddb9-4093-8f47-8edb1d312945",
+    "visitor_id": "67bd82f2-45d6-49e2-8782-1be4769ca1b1",
+    "product_id": "bbb1c304-7e97-481e-ac12-d3e6e56fa10d",
+    "category": "homme",
+    "subcategory": "",
+    "viewed_at": "2026-04-19T13:31:56.904406+00:00",
+    "view_count": 1
+  },
+  {
+    "id": "57573c89-1cfa-48b4-95af-0b90337fa292",
+    "visitor_id": "38165a70-0788-42f2-ad3e-98564fb24ac3",
+    "product_id": "bbb1c304-7e97-481e-ac12-d3e6e56fa10d",
+    "category": "homme",
+    "subcategory": "",
+    "viewed_at": "2026-04-19T13:31:56.971111+00:00",
+    "view_count": 1
+  },
+  {
+    "id": "ffc20687-3805-46fa-972e-eec8ded39d2f",
+    "visitor_id": "218d1ea3-4d3e-45a2-9471-e15347660995",
+    "product_id": "bbb1c304-7e97-481e-ac12-d3e6e56fa10d",
+    "category": "homme",
+    "subcategory": "",
+    "viewed_at": "2026-04-19T16:30:03.807337+00:00",
+    "view_count": 1
+  },
+  {
+    "id": "a11b3ad1-979c-410c-b5d1-9309903e6315",
+    "visitor_id": "66f3ba99-a251-4cb8-bc21-4289a9531e72",
+    "product_id": "bbb1c304-7e97-481e-ac12-d3e6e56fa10d",
+    "category": "homme",
+    "subcategory": "",
+    "viewed_at": "2026-04-19T16:30:03.838131+00:00",
+    "view_count": 1
+  },
+  {
+    "id": "a5237733-7224-4aa8-a65c-fc4732e36b2e",
+    "visitor_id": "98e04ed9-f6aa-468f-8422-6b5404843dd6",
+    "product_id": "dd0566e2-942a-4370-8009-ce24803b0acc",
+    "category": "femme",
+    "subcategory": "vetements",
+    "viewed_at": "2026-04-19T16:51:17.476609+00:00",
+    "view_count": 1
+  },
+  {
+    "id": "f6fd5598-bba1-46df-af5f-e3dd903a51b3",
+    "visitor_id": "9f774bb3-28a9-4732-bf27-d7cd5b56b2c8",
+    "product_id": "dd0566e2-942a-4370-8009-ce24803b0acc",
+    "category": "femme",
+    "subcategory": "vetements",
+    "viewed_at": "2026-04-19T16:51:17.492940+00:00",
+    "view_count": 1
+  },
+  {
+    "id": "84a28ccd-b198-4eaa-91ad-b2ec88a70bce",
+    "visitor_id": "b10e4101-1503-4b72-aac4-dacbc61fad2d",
+    "product_id": "8044ff1f-99f4-4a34-9362-35e08d14851c",
+    "category": "femme",
+    "subcategory": "chaussures",
+    "viewed_at": "2026-04-19T19:34:50.807583+00:00",
+    "view_count": 1
+  },
+  {
+    "id": "a0fdf9c8-e617-4acc-850a-fc8473739c43",
+    "visitor_id": "ac87bc60-2c07-4b83-9307-9f978ef96d7f",
+    "product_id": "8044ff1f-99f4-4a34-9362-35e08d14851c",
+    "category": "femme",
+    "subcategory": "chaussures",
+    "viewed_at": "2026-04-19T19:34:50.917971+00:00",
+    "view_count": 1
+  },
+  {
+    "id": "7d9b76f3-59a0-43ab-8c42-49eb53cc305e",
+    "visitor_id": "3d30c3b1-6fbc-492d-bf57-a5edd3be532b",
+    "product_id": "bbb1c304-7e97-481e-ac12-d3e6e56fa10d",
+    "category": "homme",
+    "subcategory": "",
+    "viewed_at": "2026-04-19T19:37:56.577214+00:00",
+    "view_count": 1
+  },
+  {
+    "id": "c6dad2db-5ea3-41af-b09e-3b4b4cc54ce1",
+    "visitor_id": "904a99b8-ebb4-45d8-83f9-843c516c961a",
+    "product_id": "bbb1c304-7e97-481e-ac12-d3e6e56fa10d",
+    "category": "homme",
+    "subcategory": "",
+    "viewed_at": "2026-04-19T19:37:56.690177+00:00",
+    "view_count": 1
+  },
+  {
+    "id": "6cbd4c0f-e9fc-4f1e-837f-e8c470e90460",
+    "visitor_id": "38e66b25-d7ed-4d49-8b36-ffd29899f8fa",
+    "product_id": "c4d5490e-6d6f-43ee-8a7b-75501386d43e",
+    "category": "enfant",
+    "subcategory": "",
+    "viewed_at": "2026-04-19T19:38:01.420960+00:00",
+    "view_count": 1
+  },
+  {
+    "id": "6063d598-acaa-4c49-bdd6-402448e9f9b6",
+    "visitor_id": "6b50ff3b-f424-477c-bb9b-35a6223e830d",
+    "product_id": "c4d5490e-6d6f-43ee-8a7b-75501386d43e",
+    "category": "enfant",
+    "subcategory": "",
+    "viewed_at": "2026-04-19T19:38:01.436185+00:00",
+    "view_count": 1
+  }
+]

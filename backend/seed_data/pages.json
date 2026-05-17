@@ -1,0 +1,62 @@
+[
+  {
+    "page_id": "contact",
+    "contactEmail": "contact@waselni.fr",
+    "content": "<h2>Nous sommes là pour vous aider</h2><p>Notre équipe est disponible du lundi au vendredi de 9h à 18h.</p><ul><li>Email: contact@bestshop.com</li><li>Téléphone: 01 23 45 67 89</li></ul>",
+    "title": "Contactez-nous"
+  },
+  {
+    "page_id": "faq",
+    "contactEmail": null,
+    "content": "<h2>Questions Fréquentes</h2><h3>Comment passer une commande ?</h3><p>Ajoutez vos articles au panier et suivez les étapes de paiement.</p><h3>Quels sont les délais de livraison ?</h3><p>Livraison sous 3 à 5 jours ouvrés en France métropolitaine.</p>",
+    "title": "Questions Fréquentes (FAQ)"
+  },
+  {
+    "page_id": "shipping",
+    "contactEmail": null,
+    "content": "<h2>Livraison & Expédition</h2><p>Nous livrons dans toute la France et en Europe.</p><ul><li>France : 5€ (gratuit dès 50€ d'achat)</li><li>Europe : 12€ (gratuit dès 100€ d'achat)</li></ul>",
+    "title": "Livraison & Expédition"
+  },
+  {
+    "page_id": "returns",
+    "contactEmail": null,
+    "content": "<h2>Politique de Retour</h2><p>Vous disposez de 30 jours pour retourner vos articles.</p><p>Les retours sont gratuits depuis votre espace client.</p>",
+    "title": "Retours"
+  },
+  {
+    "page_id": "about",
+    "contactEmail": null,
+    "content": "<h2>Notre Histoire</h2><p>BEST SHOP est une entreprise familiale fondée en 2020.</p><p>Nous proposons des produits de qualité sélectionnés avec soin.</p>",
+    "title": "À propos"
+  },
+  {
+    "page_id": "careers",
+    "contactEmail": null,
+    "content": "<h2>Rejoignez notre équipe</h2><p>Nous recherchons des talents passionnés.</p><p>Envoyez votre CV à recrutement@bestshop.com</p>",
+    "title": "Carrières"
+  },
+  {
+    "page_id": "sustainability",
+    "contactEmail": null,
+    "content": "<h2>Notre Engagement</h2><p>Nous nous engageons pour un commerce responsable et durable.</p><ul><li>Produits éco-responsables</li><li>Emballages recyclables</li><li>Livraison verte</li></ul>",
+    "title": "Durabilité"
+  },
+  {
+    "page_id": "terms",
+    "contactEmail": null,
+    "content": "<h2>Conditions Générales</h2><p>En passant commande, vous acceptez nos conditions générales de vente.</p><p>Dernière mise à jour: janvier 2026</p>",
+    "title": "Conditions Générales de Vente"
+  },
+  {
+    "page_id": "privacy",
+    "contactEmail": "",
+    "content": "<div class=\"bg-white rounded-lg shadow-sm p-8\"><p class=\"text-sm text-gray-500 mb-8\">Dernière mise à jour : 12/04/2026</p><div class=\"space-y-6 text-gray-700\"><section><h2 class=\"text-xl font-semibold mb-3\">1. Introduction</h2><p>BEST SHOP s'engage à protéger votre vie privée et vos données personnelles conformément au Règlement Général sur la Protection des Données (RGPD). Cette politique explique comment nous collectons, utilisons et protégeons vos informations.</p></section><section><h2 class=\"text-xl font-semibold mb-3\">2. Données collectées</h2><p>Nous collectons les informations suivantes :</p><ul class=\"list-disc pl-6 mt-2 space-y-1\"><li>Informations d'identification : nom, prénom, adresse email</li><li>Informations de livraison : adresse postale, numéro de téléphone</li><li>Informations de paiement : détails de transaction (sécurisés)</li><li>Données de navigation : cookies, adresse IP, type de navigateur</li></ul></section><section><h2 class=\"text-xl font-semibold mb-3\">3. Utilisation des données</h2><p>Vos données sont utilisées pour :</p><ul class=\"list-disc pl-6 mt-2 space-y-1\"><li>Traiter vos commandes et assurer la livraison</li><li>Gérer votre compte client</li><li>Vous envoyer des communications marketing (avec votre consentement)</li><li>Améliorer nos services et votre expérience d'achat</li><li>Respecter nos obligations légales</li></ul></section><section><h2 class=\"text-xl font-semibold mb-3\">4. Cookies</h2><p>Notre site utilise des cookies pour améliorer votre expérience. Les cookies sont de petits fichiers stockés sur votre appareil.</p><div class=\"mt-3 space-y-2\"><p><strong>Cookies essentiels :</strong> Nécessaires au fonctionnement du site (panier, authentification)</p><p><strong>Cookies analytiques :</strong> Nous aident à comprendre comment vous utilisez notre site</p><p><strong>Cookies marketing :</strong> Utilisés pour personnaliser les publicités (avec votre consentement)</p></div><p class=\"mt-3\">Vous pouvez gérer vos préférences de cookies dans les paramètres de votre navigateur.</p></section><section><h2 class=\"text-xl font-semibold mb-3\">5. Partage des données</h2><p>Nous ne vendons jamais vos données personnelles. Nous pouvons partager vos informations avec :</p><ul class=\"list-disc pl-6 mt-2 space-y-1\"><li>Nos prestataires de services (livraison, paiement)</li><li>Les autorités légales si requis par la loi</li></ul></section><section><h2 class=\"text-xl font-semibold mb-3\">6. Vos droits (RGPD)</h2><p>Vous disposez des droits suivants :</p><ul class=\"list-disc pl-6 mt-2 space-y-1\"><li><strong>Droit d'accès :</strong> Consulter vos données personnelles</li><li><strong>Droit de rectification :</strong> Corriger vos données inexactes</li><li><strong>Droit à l'effacement :</strong> Supprimer vos données</li><li><strong>Droit à la portabilité :</strong> Récupérer vos données</li><li><strong>Droit d'opposition :</strong> Refuser le traitement de vos données</li><li><strong>Droit de limitation :</strong> Limiter l'utilisation de vos données</li></ul><p class=\"mt-3\">Pour exercer vos droits, contactez-nous à : privacy@bestshop.com</p></section><section><h2 class=\"text-xl font-semibold mb-3\">7. Sécurité</h2><p>Nous mettons en œuvre des mesures techniques et organisationnelles appropriées pour protéger vos données contre tout accès non autorisé, perte ou destruction.</p></section><section><h2 class=\"text-xl font-semibold mb-3\">8. Conservation des données</h2><p>Vos données sont conservées pendant la durée nécessaire aux finalités pour lesquelles elles ont été collectées, conformément aux obligations légales.</p></section><section><h2 class=\"text-xl font-semibold mb-3\">9. Modifications</h2><p>Nous pouvons modifier cette politique de confidentialité. Les modifications seront publiées sur cette page avec la date de mise à jour.</p></section><section><h2 class=\"text-xl font-semibold mb-3\">10. Contact</h2><p>Pour toute question concernant cette politique :<br>Email : privacy@bestshop.com<br>Délégué à la Protection des Données (DPO) : dpo@bestshop.com</p></section></div></div>",
+    "title": "Politique de Confidentialité et Gestion des Cookies"
+  },
+  {
+    "page_id": "cookies",
+    "contactEmail": null,
+    "content": "<h2>Utilisation des Cookies</h2><p>Ce site utilise des cookies pour améliorer votre expérience.</p><p>Vous pouvez gérer vos préférences dans les paramètres de votre navigateur.</p>",
+    "title": "Politique des Cookies"
+  }
+]

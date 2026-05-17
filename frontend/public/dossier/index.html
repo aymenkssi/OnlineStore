@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Best Shop v6 — Plateforme E-commerce Premium à vendre</title>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,500;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#0b0d10;
+    --paper:#fbf9f5;
+    --accent:#ff4b2b;
+    --accent-2:#ffd166;
+    --muted:#667085;
+    --line:#e7e3db;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{font-family:'Inter',sans-serif;background:var(--paper);color:var(--ink);line-height:1.55}
+  .container{max-width:1240px;margin:0 auto;padding:0 32px}
+  h1,h2,h3{font-family:'Fraunces',serif;font-weight:500;letter-spacing:-0.02em}
+  h1{font-size:clamp(2.4rem,5.6vw,4.8rem);line-height:1.05}
+  h2{font-size:clamp(1.8rem,3.4vw,2.8rem);line-height:1.1;margin-bottom:.4em}
+  h3{font-size:1.35rem;margin-bottom:.3em}
+  a{color:inherit}
+
+  /* nav */
+  nav{position:sticky;top:0;z-index:10;background:rgba(251,249,245,.9);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+  nav .wrap{display:flex;justify-content:space-between;align-items:center;padding:18px 32px;max-width:1240px;margin:0 auto}
+  .logo{font-family:'Fraunces',serif;font-size:1.4rem;font-weight:700}
+  .logo span{color:var(--accent)}
+  .cta{background:var(--ink);color:var(--paper);padding:10px 22px;border-radius:999px;text-decoration:none;font-weight:500;transition:all .2s}
+  .cta:hover{background:var(--accent);transform:translateY(-1px)}
+
+  /* hero */
+  header.hero{padding:80px 0 40px;position:relative;overflow:hidden}
+  .hero-grid{display:grid;grid-template-columns:1.2fr 1fr;gap:80px;align-items:center}
+  .hero .tag{display:inline-block;padding:6px 14px;background:var(--accent-2);border-radius:999px;font-size:.78rem;font-weight:600;text-transform:uppercase;letter-spacing:.08em;margin-bottom:24px}
+  .hero p.sub{font-size:1.15rem;color:var(--muted);max-width:540px;margin:28px 0 36px}
+  .hero-cta{display:flex;gap:14px;flex-wrap:wrap}
+  .btn-primary{background:var(--ink);color:var(--paper);padding:14px 28px;border-radius:999px;text-decoration:none;font-weight:500}
+  .btn-ghost{border:1px solid var(--ink);padding:14px 28px;border-radius:999px;text-decoration:none;font-weight:500}
+  .hero-img{border-radius:20px;overflow:hidden;box-shadow:0 30px 60px -20px rgba(0,0,0,.25)}
+  .hero-img img{width:100%;display:block}
+
+  .metrics{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;margin-top:70px;padding:36px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+  .metrics div{text-align:center}
+  .metrics strong{font-family:'Fraunces',serif;font-size:2.2rem;display:block;color:var(--accent)}
+  .metrics span{font-size:.85rem;color:var(--muted);text-transform:uppercase;letter-spacing:.1em}
+
+  /* sections */
+  section{padding:90px 0}
+  .eyebrow{display:inline-block;font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:.15em;color:var(--accent);margin-bottom:12px}
+  .intro{max-width:720px;margin-bottom:50px}
+  .intro p{color:var(--muted);font-size:1.05rem;margin-top:16px}
+
+  /* features grid */
+  .features{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+  .feature{padding:28px;border:1px solid var(--line);border-radius:16px;background:#fff;transition:all .25s}
+  .feature:hover{transform:translateY(-4px);border-color:var(--ink);box-shadow:0 20px 40px -20px rgba(0,0,0,.15)}
+  .feature .icon{width:44px;height:44px;background:var(--accent-2);border-radius:12px;display:grid;place-items:center;margin-bottom:18px;font-size:22px}
+  .feature p{color:var(--muted);font-size:.95rem}
+
+  /* gallery */
+  .gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+  .shot{border-radius:14px;overflow:hidden;border:1px solid var(--line);background:#fff;transition:transform .25s}
+  .shot:hover{transform:scale(1.02)}
+  .shot img{width:100%;display:block}
+  .shot p{padding:14px 18px;font-size:.88rem;color:var(--muted);border-top:1px solid var(--line)}
+
+  /* admin showcase */
+  .admin-bg{background:var(--ink);color:var(--paper);border-radius:24px;padding:70px;margin:40px 0}
+  .admin-bg h2{color:var(--paper)}
+  .admin-bg .eyebrow{color:var(--accent-2)}
+  .admin-bg p.lead{color:#bfbcb5;max-width:680px;margin-top:16px}
+  .admin-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:24px;margin-top:50px}
+  .admin-grid img{width:100%;border-radius:12px;display:block}
+
+  /* stack */
+  .stack-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+  .tech{padding:18px;border:1px solid var(--line);border-radius:12px;background:#fff;text-align:center}
+  .tech strong{display:block;font-family:'Fraunces',serif;font-size:1.1rem}
+  .tech span{font-size:.8rem;color:var(--muted)}
+
+  /* pricing/cta */
+  .price-card{background:linear-gradient(135deg,#ff4b2b,#ff8a5c);color:#fff;padding:60px;border-radius:24px;text-align:center}
+  .price-card h2{color:#fff;font-size:clamp(2rem,4vw,3.2rem)}
+  .price-card p{max-width:620px;margin:18px auto 32px;opacity:.95}
+  .price-card .btn-primary{background:#fff;color:var(--accent)}
+
+  footer{padding:60px 0;text-align:center;color:var(--muted);font-size:.9rem;border-top:1px solid var(--line)}
+
+  @media (max-width:820px){
+    .hero-grid,.features,.gallery,.admin-grid,.stack-grid{grid-template-columns:1fr}
+    .metrics{grid-template-columns:repeat(2,1fr)}
+    .admin-bg{padding:40px 26px}
+    section{padding:60px 0}
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <div class="logo">Best<span>Shop</span> · v6</div>
+    <a href="#contact" class="cta">Acquérir la licence</a>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="container">
+    <div class="hero-grid">
+      <div>
+        <span class="tag">🚀 À vendre · Code source inclus</span>
+        <h1>Une plateforme e-commerce prête à vendre, dès aujourd'hui.</h1>
+        <p class="sub">Best Shop est une solution full-stack React 19 + FastAPI + MongoDB, complète, personnalisable et sans abonnement mensuel. Alternative souveraine à Shopify et WooCommerce pour les marques de prêt-à-porter et d'accessoires.</p>
+        <div class="hero-cta">
+          <a href="#features" class="btn-primary">Voir les fonctionnalités</a>
+          <a href="#gallery" class="btn-ghost">30+ captures d'écran</a>
+        </div>
+      </div>
+      <div class="hero-img">
+        <img src="./screenshots/01_homepage.jpeg" alt="Aperçu de la boutique" loading="lazy"/>
+      </div>
+    </div>
+
+    <div class="metrics">
+      <div><strong>18</strong><span>Modules admin</span></div>
+      <div><strong>19</strong><span>Routeurs API REST</span></div>
+      <div><strong>40+</strong><span>Produits seed inclus</span></div>
+      <div><strong>3</strong><span>Devises supportées</span></div>
+    </div>
+  </div>
+</header>
+
+<section id="features">
+  <div class="container">
+    <div class="intro">
+      <span class="eyebrow">Fonctionnalités</span>
+      <h2>Tout ce qu'il faut pour lancer une boutique sérieuse.</h2>
+      <p>Catalogue, panier, paiement, livraison, retours, marketing, statistiques, multi-admins avec permissions granulaires… le tout pilotable sans écrire une ligne de code.</p>
+    </div>
+
+    <div class="features">
+      <div class="feature"><div class="icon">🛍</div><h3>Catalogue riche</h3><p>Variantes couleur × taille, stock par combinaison, images multiples, catégories à 3 niveaux, attributs personnalisés.</p></div>
+      <div class="feature"><div class="icon">💳</div><h3>Paiements flexibles</h3><p>Stripe (CB), PayPal Business, paiement à la livraison. Sélection de la devise (EUR, USD, DT).</p></div>
+      <div class="feature"><div class="icon">🔐</div><h3>Auth & OAuth Google</h3><p>JWT + bcrypt, connexion sociale Google 2.0 préconfigurée, mot de passe oublié.</p></div>
+      <div class="feature"><div class="icon">🎁</div><h3>Promotions & coupons</h3><p>Remises % ou fixes, codes promo à usage limité, ciblage par catégorie ou produit, plages de dates.</p></div>
+      <div class="feature"><div class="icon">📊</div><h3>Statistiques temps réel</h3><p>CA, panier moyen, top produits, courbes de ventes. Dashboards construits avec Recharts.</p></div>
+      <div class="feature"><div class="icon">↩️</div><h3>Gestion des retours</h3><p>Workflow complet : demande client → approbation → remboursement → restockage automatique.</p></div>
+      <div class="feature"><div class="icon">✉️</div><h3>Emails transactionnels</h3><p>Intégration Resend : inscription, confirmation de commande, expédition, newsletter.</p></div>
+      <div class="feature"><div class="icon">🎨</div><h3>Style sans code</h3><p>Changez les couleurs, thème clair/sombre, logo, textes, favicon depuis l'admin.</p></div>
+      <div class="feature"><div class="icon">👥</div><h3>Multi-administrateurs</h3><p>17 permissions granulaires pour créer des rôles Vendeur, Gestionnaire stock, Marketing…</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="gallery" style="background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line)">
+  <div class="container">
+    <div class="intro">
+      <span class="eyebrow">Aperçu visuel</span>
+      <h2>Un design premium, un code propre.</h2>
+      <p>Interface vitrine inspirée des grandes maisons de mode, back-office inspiré des meilleurs SaaS e-commerce du marché.</p>
+    </div>
+
+    <div class="gallery">
+      <div class="shot"><img src="./screenshots/01_homepage.jpeg" alt="Home"/><p>Page d'accueil — bandeau promo & produit phare</p></div>
+      <div class="shot"><img src="./screenshots/02_category_femme.jpeg" alt="Femme"/><p>Catégorie Femme — filtres & tri</p></div>
+      <div class="shot"><img src="./screenshots/12_product_detail.jpeg" alt="Produit"/><p>Fiche produit — variantes & ajout panier</p></div>
+      <div class="shot"><img src="./screenshots/06_promotions.jpeg" alt="Promos"/><p>Page Promotions dédiée</p></div>
+      <div class="shot"><img src="./screenshots/08_login_modal.jpeg" alt="Login"/><p>Connexion + Google OAuth</p></div>
+      <div class="shot"><img src="./screenshots/11_wishlist.jpeg" alt="Wishlist"/><p>Liste de favoris synchronisée au compte</p></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="admin-bg">
+      <span class="eyebrow">Back-office</span>
+      <h2>Un admin aussi puissant que Shopify.</h2>
+      <p class="lead">18 modules, 17 permissions, statistiques temps réel, éditeur de style intégré, gestion des retours, inventaire, newsletter, coupons, administrateurs multi-rôles… Tout est livré.</p>
+
+      <div class="admin-grid">
+        <img src="./screenshots/14_admin_dashboard.jpeg" alt="Dashboard"/>
+        <img src="./screenshots/21_admin_sales_stats.jpeg" alt="Ventes"/>
+        <img src="./screenshots/15_admin_products.jpeg" alt="Produits"/>
+        <img src="./screenshots/16_admin_orders.jpeg" alt="Commandes"/>
+        <img src="./screenshots/17_admin_customers.jpeg" alt="Clients"/>
+        <img src="./screenshots/23_admin_returns.jpeg" alt="Retours"/>
+        <img src="./screenshots/26_admin_payment.jpeg" alt="Paiement"/>
+        <img src="./screenshots/28_admin_style.jpeg" alt="Style"/>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="intro">
+      <span class="eyebrow">Stack technique</span>
+      <h2>Technos modernes, code maintenable.</h2>
+      <p>Aucune dette technique, aucune dépendance legacy, architecture asynchrone.</p>
+    </div>
+    <div class="stack-grid">
+      <div class="tech"><strong>React 19</strong><span>Frontend</span></div>
+      <div class="tech"><strong>FastAPI</strong><span>Backend async</span></div>
+      <div class="tech"><strong>MongoDB 7</strong><span>Base NoSQL</span></div>
+      <div class="tech"><strong>Tailwind 3</strong><span>Design system</span></div>
+      <div class="tech"><strong>Radix/Shadcn</strong><span>Composants</span></div>
+      <div class="tech"><strong>Recharts</strong><span>Graphiques</span></div>
+      <div class="tech"><strong>JWT + OAuth</strong><span>Authentification</span></div>
+      <div class="tech"><strong>Resend · Stripe · PayPal</strong><span>Intégrations</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="container">
+    <div class="price-card">
+      <h2>Prêt à reprendre une boutique clé-en-main ?</h2>
+      <p>Code source complet, base de données seedée, intégrations préconfigurées, documentation technique, 30+ captures commentées. Installation en moins d'une heure.</p>
+      <a href="mailto:contact@votre-email.com?subject=Acquisition%20Best%20Shop%20v6" class="btn-primary">Contacter le vendeur</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    © 2026 · Best Shop v6 — Plateforme e-commerce prête à la vente · Dossier commercial généré automatiquement
+  </div>
+</footer>
+
+</body>
+</html>

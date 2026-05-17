@@ -1,0 +1,20 @@
+[
+  {
+    "id": "e508df75-f0db-40c1-96ac-7d72fffd43a2",
+    "type": "test",
+    "title": "Notification de test",
+    "message": "Test depuis curl",
+    "priority": "normal",
+    "read": true,
+    "created_at": "2026-04-19T19:44:28.612084+00:00"
+  },
+  {
+    "id": "4c0e4e8a-847c-4825-b1b6-8c88a84fe2a8",
+    "type": "test",
+    "title": "Notification de test",
+    "message": "Test #1",
+    "priority": "normal",
+    "read": true,
+    "created_at": "2026-04-19T19:44:39.531106+00:00"
+  }
+]

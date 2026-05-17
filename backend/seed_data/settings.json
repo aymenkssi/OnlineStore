@@ -1,0 +1,129 @@
+[
+  {
+    "type": "payment",
+    "data": {
+      "currency": "EUR",
+      "currency_symbol": "€",
+      "payment_methods": [
+        "cashOnDelivery"
+      ],
+      "stripe_enabled": false,
+      "paypal_enabled": false,
+      "cash_on_delivery": true,
+      "min_order_amount": 0,
+      "free_shipping_threshold": 400.0,
+      "shipping_cost": 10.0
+    },
+    "created_at": "2026-04-07T14:59:45.765506+00:00",
+    "updated_at": "2026-04-19T19:00:15.140410+00:00"
+  },
+  {
+    "type": "style",
+    "data": {
+      "primary_color": "#000000",
+      "secondary_color": "#DC2626",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000",
+      "accent_color": "#DC2626",
+      "font_family": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif",
+      "logo_url": null,
+      "favicon_url": null,
+      "header_style": "default",
+      "footer_style": "default",
+      "button_style": "rounded",
+      "promotion_bg_color": "#b9e4dd",
+      "promotion_bg_color_end": "#42dbf0",
+      "promotion_image_size": "medium",
+      "newarrivals_bg_color": "#afaeb2",
+      "newarrivals_bg_color_end": "#568be1",
+      "newarrivals_image_size": "large",
+      "recommendations_enabled": true,
+      "recommendations_bg_color": "#7C3AED",
+      "recommendations_bg_color_end": "#6366F1",
+      "recommendations_image_size": "medium",
+      "recommendations_display_type": "carousel",
+      "recommendations_title": "Test Recommendations",
+      "recommendations_subtitle": "Test subtitle",
+      "recommendations_limit": 8,
+      "recently_viewed_enabled": true,
+      "recently_viewed_bg_color": "#374151",
+      "recently_viewed_bg_color_end": "#1F2937",
+      "recently_viewed_title": "Vus récemment",
+      "recently_viewed_limit": 6,
+      "banner_enabled": true,
+      "banner_text": "Livraison gratuite à partir de 400€ d'achat",
+      "banner_bg_color": "#80e5ff",
+      "banner_text_color": "#1F2937",
+      "banner_animation": "scroll-left",
+      "banner_animation_speed": 22,
+      "banner_font_size": 24,
+      "max_image_size_mb": 5.0
+    },
+    "created_at": "2026-04-07T14:59:45.787203+00:00",
+    "updated_at": "2026-04-19T15:57:16.201027+00:00"
+  },
+  {
+    "type": "site",
+    "data": {
+      "site_name": "BEST SHOP",
+      "site_description": "Mode & Accessoires de Luxe",
+      "contact_email": "contact@bestshop.com",
+      "contact_phone": "+33 1 23 45 67 89",
+      "address": "123 Avenue de la Mode, 75008 Paris, France",
+      "social_facebook": null,
+      "social_instagram": null,
+      "social_twitter": null,
+      "social_linkedin": null,
+      "meta_title": "BEST SHOP - Mode & Accessoires de Luxe",
+      "meta_description": "Découvrez notre collection de mode et accessoires de luxe",
+      "google_analytics_id": null,
+      "maintenance_mode": false,
+      "categories_per_row": 4,
+      "categories_title": "Choisissez un rayon"
+    },
+    "created_at": "2026-04-07T14:59:45.787748+00:00",
+    "updated_at": "2026-04-19T15:57:18.426922+00:00"
+  },
+  {
+    "type": "newsletter",
+    "subject_new_product": "Nouveau produit !",
+    "subject_promotion": "Promo !",
+    "header_text": "BEST SHOP",
+    "footer_text": "Merci",
+    "primary_color": "#DC2626",
+    "logo_url": null,
+    "sender_email": "newsletter@bestshop.com",
+    "password_reset_sender_email": "noreplay@waselni.fr"
+  },
+  {
+    "type": "security",
+    "data": {
+      "deletion_code": "1234",
+      "require_code_for_deletion": true,
+      "code_description": "Code de confirmation pour les suppressions"
+    },
+    "updated_at": "2026-04-11T20:34:58.282050+00:00"
+  },
+  {
+    "type": "site_settings",
+    "deletion_code": "1234",
+    "require_code_for_deletion": true
+  },
+  {
+    "type": "notifications",
+    "data": {
+      "telegram_enabled": true,
+      "telegram_bot_token": "8141752603:AAEa7JLPZcx56h6n2GXr1qUe-kYC364CqQw",
+      "telegram_chat_id": "5691779270",
+      "whatsapp_enabled": true,
+      "whatsapp_phone": "+33618013516",
+      "whatsapp_api_key": "5382529",
+      "events": {
+        "new_order": true,
+        "new_return": true,
+        "new_customer": true,
+        "low_stock": true
+      }
+    }
+  }
+]

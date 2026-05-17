@@ -1,0 +1,236 @@
+[
+  {
+    "type": "global",
+    "brands": [
+      "Best Shop",
+      "Bijoux Précieux",
+      "Bébé Doux",
+      "Chaussures Classiques",
+      "Classic Homme",
+      "Cuir Premium",
+      "Denim Co",
+      "Denim Co Junior",
+      "Excellence Sur Mesure",
+      "Heritage London",
+      "Intimité",
+      "Kids Comfort",
+      "Luxe Doux",
+      "Luxe Femme",
+      "Mode Active",
+      "Outdoor Premium",
+      "Soleil Mode",
+      "Sport Luxe",
+      "Stiletto Paris",
+      "Style Jeunesse",
+      "Temps Élégant",
+      "Urban Chic",
+      "Vision Luxe",
+      "Élégance Paris"
+    ],
+    "colors": [
+      {
+        "name": "Anthracite",
+        "hex": "#36454F"
+      },
+      {
+        "name": "Argent",
+        "hex": "#C0C0C0"
+      },
+      {
+        "name": "Argent cristal",
+        "hex": "#E8E8E8"
+      },
+      {
+        "name": "Beige",
+        "hex": "#F5F5DC"
+      },
+      {
+        "name": "Blanc",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Blanc/Gris",
+        "hex": "#D3D3D3"
+      },
+      {
+        "name": "Bleu",
+        "hex": "#0000FF"
+      },
+      {
+        "name": "Bleu Marine",
+        "hex": "#001f3f"
+      },
+      {
+        "name": "Bleu ciel",
+        "hex": "#87CEEB"
+      },
+      {
+        "name": "Bleu délavé",
+        "hex": "#6495ED"
+      },
+      {
+        "name": "Bleu/Vert",
+        "hex": "#00CED1"
+      },
+      {
+        "name": "Bordeaux",
+        "hex": "#800020"
+      },
+      {
+        "name": "Charbon",
+        "hex": "#36454F"
+      },
+      {
+        "name": "Cognac",
+        "hex": "#834333"
+      },
+      {
+        "name": "Cuir marron",
+        "hex": "#8B4513"
+      },
+      {
+        "name": "Doré",
+        "hex": "#FFD700"
+      },
+      {
+        "name": "Floral",
+        "hex": "#FFB6C1"
+      },
+      {
+        "name": "Gris chiné",
+        "hex": "#808080"
+      },
+      {
+        "name": "Gris perle",
+        "hex": "#C0C0C0"
+      },
+      {
+        "name": "Indigo",
+        "hex": "#3F51B5"
+      },
+      {
+        "name": "Ivoire",
+        "hex": "#FFFFF0"
+      },
+      {
+        "name": "Kaki",
+        "hex": "#556B2F"
+      },
+      {
+        "name": "Marine",
+        "hex": "#001f3f"
+      },
+      {
+        "name": "Marine étoilé",
+        "hex": "#001f3f"
+      },
+      {
+        "name": "Marron",
+        "hex": "#8B4513"
+      },
+      {
+        "name": "Multicolore",
+        "hex": "#FF6347"
+      },
+      {
+        "name": "Noir",
+        "hex": "#000000"
+      },
+      {
+        "name": "Nude",
+        "hex": "#E8C4A0"
+      },
+      {
+        "name": "Or",
+        "hex": "#FFD700"
+      },
+      {
+        "name": "Or rose",
+        "hex": "#B76E79"
+      },
+      {
+        "name": "Or/Vert",
+        "hex": "#FFD700"
+      },
+      {
+        "name": "Rose",
+        "hex": "#FFB6C1"
+      },
+      {
+        "name": "Rose poudré",
+        "hex": "#E8B4B8"
+      },
+      {
+        "name": "Rouge/Noir",
+        "hex": "#8B0000"
+      },
+      {
+        "name": "Sable",
+        "hex": "#C2B280"
+      },
+      {
+        "name": "Taupe",
+        "hex": "#483C32"
+      },
+      {
+        "name": "Vert",
+        "hex": "#228B22"
+      },
+      {
+        "name": "Écaille",
+        "hex": "#8B4513"
+      },
+      {
+        "name": "Écru",
+        "hex": "#FAF0E6"
+      }
+    ],
+    "customAttributes": [],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "Taille Unique",
+      "100",
+      "105",
+      "10A",
+      "12A",
+      "12M",
+      "18M",
+      "24",
+      "26",
+      "28",
+      "30",
+      "32",
+      "34",
+      "36",
+      "37",
+      "38",
+      "39",
+      "3M",
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "48",
+      "4A",
+      "4Y",
+      "50",
+      "52",
+      "54",
+      "56",
+      "6A",
+      "6M",
+      "6Y",
+      "85",
+      "8A",
+      "8Y",
+      "90",
+      "95"
+    ]
+  }
+]

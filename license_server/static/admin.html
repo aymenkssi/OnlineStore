@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>License Manager — Vendor Admin</title>
+<style>
+  :root {
+    --bg: #0f172a; --panel: #1e293b; --border: #334155;
+    --text: #f1f5f9; --muted: #94a3b8;
+    --primary: #22d3ee; --primary-hover: #06b6d4;
+    --success: #22c55e; --danger: #ef4444; --warning: #f59e0b;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: var(--bg); color: var(--text); font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; padding: 2rem; min-height: 100vh; }
+  .container { max-width: 1200px; margin: 0 auto; }
+  h1 { font-size: 1.5rem; margin-bottom: 0.25rem; letter-spacing: -0.02em; }
+  .subtitle { color: var(--muted); font-size: 0.85rem; margin-bottom: 2rem; }
+  .card { background: var(--panel); border: 1px solid var(--border); border-radius: 8px; padding: 1.5rem; margin-bottom: 1.5rem; }
+  .card h2 { font-size: 1rem; margin-bottom: 1rem; color: var(--primary); text-transform: uppercase; letter-spacing: 0.05em; font-weight: 600; }
+  label { display: block; font-size: 0.75rem; color: var(--muted); margin-bottom: 0.25rem; text-transform: uppercase; letter-spacing: 0.05em; }
+  input, textarea { width: 100%; background: #0f172a; border: 1px solid var(--border); border-radius: 4px; color: var(--text); padding: 0.6rem 0.8rem; font-family: inherit; font-size: 0.9rem; margin-bottom: 0.8rem; }
+  input:focus, textarea:focus { outline: none; border-color: var(--primary); }
+  button { background: var(--primary); color: #0f172a; border: 0; padding: 0.6rem 1.2rem; border-radius: 4px; font-family: inherit; font-weight: 600; cursor: pointer; font-size: 0.85rem; transition: background 0.15s; }
+  button:hover { background: var(--primary-hover); }
+  button.ghost { background: transparent; color: var(--text); border: 1px solid var(--border); }
+  button.ghost:hover { border-color: var(--primary); color: var(--primary); }
+  button.danger { background: var(--danger); color: white; }
+  button.danger:hover { background: #dc2626; }
+  button.warning { background: var(--warning); color: #0f172a; }
+  .row { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+  .badge { display: inline-block; padding: 0.2rem 0.6rem; border-radius: 12px; font-size: 0.7rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; }
+  .badge.active { background: rgba(34, 197, 94, 0.2); color: var(--success); }
+  .badge.revoked { background: rgba(239, 68, 68, 0.2); color: var(--danger); }
+  .badge.expired { background: rgba(245, 158, 11, 0.2); color: var(--warning); }
+  .badge.exhausted { background: rgba(245, 158, 11, 0.2); color: var(--warning); }
+  .badge.unbound { background: rgba(148, 163, 184, 0.2); color: var(--muted); }
+  table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
+  th, td { padding: 0.75rem 0.5rem; text-align: left; border-bottom: 1px solid var(--border); }
+  th { color: var(--muted); font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.05em; font-weight: 600; }
+  td .key { font-family: ui-monospace; font-size: 0.8rem; background: #0f172a; padding: 0.2rem 0.5rem; border-radius: 4px; cursor: pointer; user-select: all; }
+  td .key:hover { color: var(--primary); }
+  .actions { display: flex; gap: 0.4rem; flex-wrap: wrap; }
+  .actions button { padding: 0.3rem 0.6rem; font-size: 0.7rem; }
+  .empty { text-align: center; padding: 2rem; color: var(--muted); }
+  .toast { position: fixed; top: 1rem; right: 1rem; padding: 0.8rem 1.2rem; background: var(--panel); border: 1px solid var(--border); border-radius: 4px; max-width: 360px; z-index: 100; box-shadow: 0 4px 12px rgba(0,0,0,0.3); }
+  .toast.success { border-color: var(--success); }
+  .toast.error { border-color: var(--danger); }
+  .login-box { max-width: 400px; margin: 4rem auto; }
+  #app { display: none; }
+  .modal-bg { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.7); z-index: 50; align-items: center; justify-content: center; }
+  .modal-bg.show { display: flex; }
+  .modal { background: var(--panel); border: 1px solid var(--border); border-radius: 8px; padding: 2rem; max-width: 500px; width: 90%; }
+  .key-display { background: #0f172a; padding: 1rem; border-radius: 4px; font-size: 1rem; word-break: break-all; margin: 1rem 0; border: 1px solid var(--primary); user-select: all; }
+  .stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin-bottom: 1.5rem; }
+  .stat { background: var(--panel); border: 1px solid var(--border); border-radius: 8px; padding: 1rem; }
+  .stat .num { font-size: 1.8rem; font-weight: 700; color: var(--primary); }
+  .stat .lbl { font-size: 0.7rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; margin-top: 0.25rem; }
+  .truncate { max-width: 220px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+</style>
+</head>
+<body>
+
+<div id="login" class="container">
+  <div class="login-box card">
+    <h1 style="text-align:center;color:var(--primary);">🔐 License Manager</h1>
+    <p class="subtitle" style="text-align:center;">Vendor administration</p>
+    <label>Email</label>
+    <input id="login-email" type="email" placeholder="vendor@example.com" autocomplete="username">
+    <label>Password</label>
+    <input id="login-password" type="password" placeholder="••••••••" autocomplete="current-password">
+    <button onclick="login()" style="width:100%;margin-top:0.5rem;">Sign in</button>
+  </div>
+</div>
+
+<div id="app" class="container">
+  <div style="display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:2rem;">
+    <div>
+      <h1>🔐 License Manager</h1>
+      <p class="subtitle">Vendor administration — <span id="admin-email"></span></p>
+    </div>
+    <button class="ghost" onclick="logout()">Sign out</button>
+  </div>
+
+  <div class="stats" id="stats"></div>
+
+  <div class="card">
+    <h2>+ Issue new license</h2>
+    <div class="row">
+      <div>
+        <label>Customer email</label>
+        <input id="new-email" type="email" placeholder="customer@company.com">
+      </div>
+      <div>
+        <label>Customer name / company</label>
+        <input id="new-name" type="text" placeholder="Acme Corp">
+      </div>
+    </div>
+    <div class="row">
+      <div>
+        <label>Remaining uses (1 = single activation)</label>
+        <input id="new-uses" type="number" min="1" value="1">
+      </div>
+      <div>
+        <label>Expires at (ISO date — leave empty for perpetual)</label>
+        <input id="new-expires" type="text" placeholder="2027-12-31T23:59:59Z (optional)">
+      </div>
+    </div>
+    <label>Internal notes</label>
+    <textarea id="new-notes" rows="2" placeholder="Order #123, paid €299"></textarea>
+    <button onclick="createLicense()">Generate license key</button>
+  </div>
+
+  <div class="card">
+    <h2>📜 All licenses</h2>
+    <div id="licenses-table"></div>
+  </div>
+</div>
+
+<div id="modal" class="modal-bg" onclick="if(event.target===this)closeModal()">
+  <div class="modal">
+    <h2 style="color:var(--success);margin-bottom:1rem;">✓ License created</h2>
+    <p style="color:var(--muted);font-size:0.85rem;">Send this key to your customer (copy and email).</p>
+    <div class="key-display" id="modal-key"></div>
+    <p style="color:var(--muted);font-size:0.75rem;margin-bottom:1rem;">⚠ This key will not be shown again in this dialog. You can find it in the table below.</p>
+    <button onclick="copyKey()" style="margin-right:0.5rem;">Copy key</button>
+    <button class="ghost" onclick="closeModal()">Close</button>
+  </div>
+</div>
+
+<script>
+const API = "/api/v1";
+let TOKEN = localStorage.getItem("admin_token");
+
+function toast(msg, type="success") {
+  const t = document.createElement("div");
+  t.className = "toast " + type;
+  t.textContent = msg;
+  document.body.appendChild(t);
+  setTimeout(() => t.remove(), 3500);
+}
+
+async function api(path, opts={}) {
+  const headers = { "Content-Type": "application/json", ...(opts.headers||{}) };
+  if (TOKEN) headers["Authorization"] = "Bearer " + TOKEN;
+  const res = await fetch(API + path, { ...opts, headers });
+  if (res.status === 401) { logout(); throw new Error("Session expired"); }
+  const data = await res.json().catch(() => ({}));
+  if (!res.ok) throw new Error(data.detail || ("HTTP " + res.status));
+  return data;
+}
+
+async function login() {
+  const email = document.getElementById("login-email").value.trim();
+  const password = document.getElementById("login-password").value;
+  if (!email || !password) return toast("Email and password required", "error");
+  try {
+    const res = await api("/admin/login", { method: "POST", body: JSON.stringify({ email, password }) });
+    TOKEN = res.token;
+    localStorage.setItem("admin_token", TOKEN);
+    localStorage.setItem("admin_email", res.email);
+    showApp();
+  } catch (e) { toast(e.message, "error"); }
+}
+
+function logout() {
+  localStorage.removeItem("admin_token");
+  localStorage.removeItem("admin_email");
+  TOKEN = null;
+  document.getElementById("app").style.display = "none";
+  document.getElementById("login").style.display = "block";
+}
+
+function showApp() {
+  document.getElementById("login").style.display = "none";
+  document.getElementById("app").style.display = "block";
+  document.getElementById("admin-email").textContent = localStorage.getItem("admin_email") || "";
+  loadLicenses();
+}
+
+async function createLicense() {
+  const email = document.getElementById("new-email").value.trim();
+  const name = document.getElementById("new-name").value.trim();
+  const expires = document.getElementById("new-expires").value.trim() || null;
+  const notes = document.getElementById("new-notes").value.trim();
+  const remaining_uses = parseInt(document.getElementById("new-uses").value, 10) || 1;
+  if (!email || !name) return toast("Email and name required", "error");
+  try {
+    const lic = await api("/admin/licenses", {
+      method: "POST",
+      body: JSON.stringify({ customer_email: email, customer_name: name, expires_at: expires, notes, remaining_uses })
+    });
+    document.getElementById("modal-key").textContent = lic.license_key;
+    document.getElementById("modal").classList.add("show");
+    document.getElementById("new-email").value = "";
+    document.getElementById("new-name").value = "";
+    document.getElementById("new-expires").value = "";
+    document.getElementById("new-notes").value = "";
+    document.getElementById("new-uses").value = "1";
+    loadLicenses();
+  } catch (e) { toast(e.message, "error"); }
+}
+
+async function loadLicenses() {
+  try {
+    const list = await api("/admin/licenses");
+    renderStats(list);
+    renderTable(list);
+  } catch (e) { toast(e.message, "error"); }
+}
+
+function renderStats(list) {
+  const stats = {
+    total: list.length,
+    active: list.filter(l => l.status === "active" && (l.activation_count || 0) > 0).length,
+    unused: list.filter(l => l.status === "active" && (l.activation_count || 0) === 0).length,
+    revoked: list.filter(l => l.status === "revoked" || l.status === "expired" || l.status === "exhausted").length,
+  };
+  document.getElementById("stats").innerHTML = `
+    <div class="stat"><div class="num">${stats.total}</div><div class="lbl">Total licenses</div></div>
+    <div class="stat"><div class="num">${stats.active}</div><div class="lbl">Active &amp; activated</div></div>
+    <div class="stat"><div class="num">${stats.unused}</div><div class="lbl">Issued, not yet used</div></div>
+    <div class="stat"><div class="num">${stats.revoked}</div><div class="lbl">Revoked / exhausted</div></div>
+  `;
+}
+
+function fmt(iso) {
+  if (!iso) return "—";
+  try { return new Date(iso).toLocaleString("en-GB", { dateStyle: "medium", timeStyle: "short" }); }
+  catch { return iso; }
+}
+
+function renderTable(list) {
+  const c = document.getElementById("licenses-table");
+  if (!list.length) { c.innerHTML = '<div class="empty">No licenses issued yet.</div>'; return; }
+  let html = `<table><thead><tr>
+    <th>License key</th><th>Customer</th><th>Status</th><th>Remaining uses</th>
+    <th>Activations</th><th>Last activated</th><th>Created</th><th>Actions</th>
+  </tr></thead><tbody>`;
+  for (const l of list) {
+    const remaining = (l.remaining_uses ?? 0);
+    const activatedCount = l.activation_count || 0;
+    const statusBadge = l.status === "active" && activatedCount > 0
+      ? `<span class="badge active">Activated</span>`
+      : l.status === "active"
+      ? `<span class="badge unbound">Issued</span>`
+      : `<span class="badge ${l.status}">${l.status}</span>`;
+    const remainingClass = remaining === 0 ? 'style="color:var(--danger);font-weight:700"' : '';
+    html += `<tr>
+      <td><span class="key" onclick="copyToClipboard('${l.license_key}')">${l.license_key}</span></td>
+      <td><div>${escapeHtml(l.customer_name)}</div><div style="color:var(--muted);font-size:0.75rem;">${escapeHtml(l.customer_email)}</div></td>
+      <td>${statusBadge}</td>
+      <td ${remainingClass}>${remaining}</td>
+      <td>${activatedCount}</td>
+      <td>${fmt(l.last_activated_at)}</td>
+      <td>${fmt(l.created_at)}</td>
+      <td><div class="actions">
+        ${l.status === "active"
+          ? `<button class="warning" onclick="revoke('${l.id}')">Revoke</button>`
+          : `<button onclick="reactivate('${l.id}')">Re-activate</button>`}
+        <button class="ghost" onclick="addUses('${l.id}')">+ Uses</button>
+        <button class="danger" onclick="del('${l.id}')">Delete</button>
+      </div></td>
+    </tr>`;
+  }
+  html += "</tbody></table>";
+  c.innerHTML = html;
+}
+
+function escapeHtml(s) {
+  return String(s||"").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[c]));
+}
+
+async function revoke(id) {
+  if (!confirm("Revoke this license? Any future activation attempt will be blocked.")) return;
+  try { await api(`/admin/licenses/${id}/revoke`, { method: "POST" }); toast("Revoked"); loadLicenses(); }
+  catch (e) { toast(e.message, "error"); }
+}
+async function reactivate(id) {
+  try { await api(`/admin/licenses/${id}/activate`, { method: "POST" }); toast("Re-activated"); loadLicenses(); }
+  catch (e) { toast(e.message, "error"); }
+}
+async function addUses(id) {
+  const raw = prompt("How many additional uses should be added?", "1");
+  if (raw === null) return;
+  const amount = parseInt(raw, 10);
+  if (!amount || amount < 1) return toast("Invalid amount", "error");
+  try { await api(`/admin/licenses/${id}/add-uses`, { method: "POST", body: JSON.stringify({ amount }) });
+        toast(`+${amount} use(s) added`); loadLicenses(); }
+  catch (e) { toast(e.message, "error"); }
+}
+async function del(id) {
+  if (!confirm("Permanently delete this license? This cannot be undone.")) return;
+  try { await api(`/admin/licenses/${id}`, { method: "DELETE" }); toast("Deleted"); loadLicenses(); }
+  catch (e) { toast(e.message, "error"); }
+}
+
+function copyToClipboard(text) {
+  navigator.clipboard.writeText(text).then(() => toast("Copied: " + text));
+}
+function copyKey() {
+  copyToClipboard(document.getElementById("modal-key").textContent);
+}
+function closeModal() { document.getElementById("modal").classList.remove("show"); }
+
+document.getElementById("login-password").addEventListener("keydown", e => { if (e.key === "Enter") login(); });
+
+if (TOKEN) showApp();
+</script>
+</body>
+</html>

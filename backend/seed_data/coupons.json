@@ -1,0 +1,32 @@
+[
+  {
+    "id": "a12ff394-6772-4ad1-8fa4-880410c991f9",
+    "code": "BIENVENUE10",
+    "discount_type": "percentage",
+    "discount_value": 10,
+    "min_purchase": 50,
+    "max_discount": 30,
+    "valid_from": "2025-01-01",
+    "valid_until": "2026-12-31",
+    "usage_limit": 1000,
+    "usage_count": 45,
+    "active": true,
+    "description": "Réduction de bienvenue pour les nouveaux clients",
+    "created_at": "2026-04-07T14:59:45.635991+00:00"
+  },
+  {
+    "id": "13ed24cc-f555-4b48-833a-cd01a380d098",
+    "code": "SOLDES20",
+    "discount_type": "percentage",
+    "discount_value": 20,
+    "min_purchase": 100,
+    "max_discount": 50,
+    "valid_from": "2025-06-01",
+    "valid_until": "2026-06-30",
+    "usage_limit": 500,
+    "usage_count": 123,
+    "active": true,
+    "description": "Soldes d'été - 20% de réduction",
+    "created_at": "2026-04-07T14:59:45.636006+00:00"
+  }
+]

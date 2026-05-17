@@ -2,6 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+    --primary-color: #000000;
+    --secondary-color: #DC2626;
+    --bg-color: #FFFFFF;
+    --text-color: #000000;
+    --text-secondary-color: #6B7280;
+    --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", sans-serif;
+    --font-size: 16px;
+    --heading-font-size: 24px;
+    --button-radius: 0px;
+}
+
 body {
     margin: 0;
     font-family:
@@ -15,6 +27,16 @@ body {
 code {
     font-family:
         source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+/* Hide Emergent badge - Multiple selectors for better coverage */
+div[style*="position: fixed"][style*="bottom"][style*="right"],
+div[style*="position:fixed"][style*="bottom"][style*="right"],
+a[href*="emergent"],
+a[href*="emergentagent"] {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
 }
 
 @layer base {
@@ -113,3 +135,86 @@ code {
         border-bottom-color: inherit;
     }
 }
+
+/* Horizontal scrolling animation for promotions carousel */
+@keyframes scroll-left {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-33.333%);
+    }
+}
+
+.animate-scroll-left {
+    animation: scroll-left 20s linear infinite;
+}
+
+.animate-scroll-left:hover {
+    animation-play-state: paused;
+}
+
+/* Banner marquee animations */
+@keyframes marquee-left {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes marquee-right {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+.animate-marquee-left {
+    animation: marquee-left 30s linear infinite;
+}
+
+.animate-marquee-right {
+    animation: marquee-right 30s linear infinite;
+}
+
+.animate-marquee-left:hover,
+.animate-marquee-right:hover {
+    animation-play-state: paused;
+}
+
+
+/* ===== Responsive helpers (mobile + tablet polish) ===== */
+
+/* Prevent horizontal page scroll caused by long content on mobile */
+html, body {
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
+/* Make every HTML table scroll horizontally when overflowing (saves time on admin tables) */
+@media (max-width: 1024px) {
+    table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+    }
+}
+
+/* Fluid heading sizes so hero titles don't break on small screens */
+@media (max-width: 640px) {
+    .text-3xl { font-size: 1.5rem; line-height: 2rem; }
+    .text-4xl { font-size: 1.875rem; line-height: 2.25rem; }
+    .text-5xl { font-size: 2.25rem; line-height: 2.5rem; }
+    .text-6xl { font-size: 2.5rem; line-height: 2.75rem; }
+}
+
+/* Ensure admin main content doesn't force horizontal page scroll */
+main { min-width: 0; }
+
+/* Shadcn Dialog scroll on small screens */
+[role="dialog"] { max-height: 90vh; overflow-y: auto; }

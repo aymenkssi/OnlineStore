@@ -1,0 +1,89 @@
+[
+  {
+    "id": "0bc11c2a-d1e7-4e01-b773-45599eb44e18",
+    "session_id": "cs_test_a1XsdmEsGeVNsySbAMFOs4H4hoke7Rb5dOrJNPBsqwuSlX4LsEqf8D6wAL",
+    "order_id": "67b38fb5-1815-48fb-8e64-f7df6444570a",
+    "order_number": "ORD-20260419-CDBE29EC",
+    "customer_email": "test@test.com",
+    "amount": 34.99,
+    "currency": "eur",
+    "payment_status": "initiated",
+    "metadata": {
+      "order_id": "67b38fb5-1815-48fb-8e64-f7df6444570a",
+      "order_number": "ORD-20260419-CDBE29EC",
+      "customer_email": "test@test.com"
+    },
+    "created_at": "2026-04-19T16:47:35.195248+00:00",
+    "updated_at": "2026-04-19T16:47:35.195260+00:00"
+  },
+  {
+    "id": "67ee1371-4941-4be5-a6f6-09f0bb74f89a",
+    "session_id": "cs_test_a1Hu3jR7HxsvMXnowJioXpDVazLSIGL0Dc8ksOfk7xkK9sBw3myRXOWz0T",
+    "order_id": "836f1d5e-bc0a-49d9-9c96-e49fe9f4432b",
+    "order_number": "ORD-20260419-1382A9F4",
+    "customer_email": "stripe_test@example.com",
+    "amount": 50.0,
+    "currency": "eur",
+    "payment_status": "initiated",
+    "metadata": {
+      "order_id": "836f1d5e-bc0a-49d9-9c96-e49fe9f4432b",
+      "order_number": "ORD-20260419-1382A9F4",
+      "customer_email": "stripe_test@example.com"
+    },
+    "created_at": "2026-04-19T16:49:17.410264+00:00",
+    "updated_at": "2026-04-19T16:49:17.410274+00:00"
+  },
+  {
+    "id": "4d6941b6-5e7d-4273-ba58-7cce53d91e36",
+    "session_id": "cs_test_a1r4u27ctCu1vUHgV2riTpUXeLp5v0w2JJjB6m6wzRlgi6qVqYqDe30FtM",
+    "order_id": "1721cd12-1357-4c8d-9b1a-ffa68913d897",
+    "order_number": "ORD-20260419-73B61845",
+    "customer_email": "status_test@example.com",
+    "amount": 75.0,
+    "currency": "eur",
+    "payment_status": "unpaid",
+    "metadata": {
+      "order_id": "1721cd12-1357-4c8d-9b1a-ffa68913d897",
+      "order_number": "ORD-20260419-73B61845",
+      "customer_email": "status_test@example.com"
+    },
+    "created_at": "2026-04-19T16:49:20.330563+00:00",
+    "updated_at": "2026-04-19T16:49:20.721758+00:00",
+    "stripe_status": "open"
+  },
+  {
+    "id": "38c0e86e-921d-4535-a910-9a69de9d5de3",
+    "session_id": "cs_test_a1EQlvbJauXIkchOYg5s2u0GMfxx5jPIrPL5NtzeDtDfGUbcOfeUeRVlJI",
+    "order_id": "ffeea610-f4e8-479a-a18b-9ebbd288514d",
+    "order_number": "ORD-20260419-D403FDEA",
+    "customer_email": "stripe_test@example.com",
+    "amount": 50.0,
+    "currency": "eur",
+    "payment_status": "initiated",
+    "metadata": {
+      "order_id": "ffeea610-f4e8-479a-a18b-9ebbd288514d",
+      "order_number": "ORD-20260419-D403FDEA",
+      "customer_email": "stripe_test@example.com"
+    },
+    "created_at": "2026-04-19T16:49:41.296066+00:00",
+    "updated_at": "2026-04-19T16:49:41.296078+00:00"
+  },
+  {
+    "id": "20ab53f5-8ed0-49a8-9c80-fd5c951409a7",
+    "session_id": "cs_test_a14Z3K4LnxXMaF3Hfx7MksXif4rnD93z311AkdFhd8unultLjgx9k98ie5",
+    "order_id": "e92741b5-d897-467a-94d1-2e3dc5263c5d",
+    "order_number": "ORD-20260419-1BD02703",
+    "customer_email": "status_test@example.com",
+    "amount": 75.0,
+    "currency": "eur",
+    "payment_status": "unpaid",
+    "metadata": {
+      "order_id": "e92741b5-d897-467a-94d1-2e3dc5263c5d",
+      "order_number": "ORD-20260419-1BD02703",
+      "customer_email": "status_test@example.com"
+    },
+    "created_at": "2026-04-19T16:49:44.448156+00:00",
+    "updated_at": "2026-04-19T16:49:44.881255+00:00",
+    "stripe_status": "open"
+  }
+]

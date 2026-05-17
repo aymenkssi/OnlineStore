@@ -1,0 +1,3568 @@
+[
+  {
+    "name": "T-shirt Enfant Coloré",
+    "brand": "Best Shop",
+    "price": 24.99,
+    "originalPrice": 50.0,
+    "promotionStartDate": "2026-04-19",
+    "promotionEndDate": "2026-04-26",
+    "category": "enfant",
+    "subcategory": "",
+    "description": "T-shirt confortable pour enfants",
+    "images": [
+      "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=400"
+    ],
+    "colors": [
+      {
+        "name": "Noir",
+        "hex": "#000000",
+        "available": true,
+        "images": []
+      }
+    ],
+    "sizes": [
+      {
+        "size": "4Y",
+        "stock": 30
+      },
+      {
+        "size": "6Y",
+        "stock": 25
+      },
+      {
+        "size": "8Y",
+        "stock": 20
+      },
+      {
+        "size": "M",
+        "stock": 0
+      }
+    ],
+    "variants": [
+      {
+        "color": "Noir",
+        "size": "4Y",
+        "stock": 13,
+        "sku": "T-SH-NOI-4Y"
+      },
+      {
+        "color": "Noir",
+        "size": "6Y",
+        "stock": 11,
+        "sku": "T-SH-NOI-6Y"
+      },
+      {
+        "color": "Noir",
+        "size": "8Y",
+        "stock": 11,
+        "sku": "T-SH-NOI-8Y"
+      },
+      {
+        "color": "Noir",
+        "size": "M",
+        "stock": 10,
+        "sku": "T-SH-NOI-M"
+      }
+    ],
+    "details": [],
+    "newArrival": true,
+    "featured": false,
+    "id": "c4d5490e-6d6f-43ee-8a7b-75501386d43e",
+    "created_at": "2026-04-07T15:06:45.502712+00:00",
+    "purchasePrice": 40.0,
+    "updatedAt": "2026-04-19T15:52:56.886651+00:00",
+    "lowStockThreshold": 10,
+    "subSubcategory": null,
+    "translations": {
+      "fr": {
+        "name": "T-shirt Enfant Coloré",
+        "description": "T-shirt confortable pour enfants"
+      },
+      "en": {
+        "name": "Colourful Kids T-shirt",
+        "description": "Comfortable T-shirt for kids"
+      },
+      "ar": {
+        "name": "تيشيرت أطفال ملوّن",
+        "description": "تيشيرت مريح للأطفال"
+      }
+    }
+  },
+  {
+    "name": "Jean Slim Homme",
+    "brand": "Best Shop",
+    "price": 79.99,
+    "originalPrice": 99.99,
+    "promotionStartDate": null,
+    "promotionEndDate": null,
+    "category": "homme",
+    "subcategory": "",
+    "description": "Jean slim coupe moderne",
+    "images": [
+      "https://images.unsplash.com/photo-1542272604-787c3835535d?w=400"
+    ],
+    "colors": [
+      {
+        "name": "Bleu",
+        "hex": "#0000FF",
+        "available": true,
+        "images": []
+      }
+    ],
+    "sizes": [
+      {
+        "size": "S",
+        "stock": 15
+      }
+    ],
+    "variants": [
+      {
+        "color": "Bleu",
+        "size": "S",
+        "stock": 50,
+        "sku": "JEAN-BLE-S"
+      }
+    ],
+    "details": [],
+    "newArrival": true,
+    "featured": false,
+    "id": "bbb1c304-7e97-481e-ac12-d3e6e56fa10d",
+    "created_at": "2026-04-07T15:06:45.617446+00:00",
+    "purchasePrice": 90.0,
+    "updatedAt": "2026-04-11T22:00:38.376505+00:00",
+    "lowStockThreshold": 10
+  },
+  {
+    "id": "dd0566e2-942a-4370-8009-ce24803b0acc",
+    "name": "Robe Midi Fleurie",
+    "brand": "Élégance Paris",
+    "price": 129.99,
+    "category": "femme",
+    "subcategory": "vetements",
+    "subSubcategory": null,
+    "images": [
+      "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=800&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Rose",
+        "hex": "#FFB6C1",
+        "available": true,
+        "images": [
+          "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=800&q=80"
+        ]
+      }
+    ],
+    "sizes": [
+      {
+        "size": "XS",
+        "stock": 5
+      },
+      {
+        "size": "S",
+        "stock": 10
+      },
+      {
+        "size": "M",
+        "stock": 12
+      },
+      {
+        "size": "L",
+        "stock": 8
+      }
+    ],
+    "variants": [
+      {
+        "color": "Rose",
+        "size": "XS",
+        "stock": 5,
+        "sku": "dd0566e2-ROS-XS"
+      },
+      {
+        "color": "Rose",
+        "size": "S",
+        "stock": 11,
+        "sku": "dd0566e2-ROS-S"
+      },
+      {
+        "color": "Rose",
+        "size": "M",
+        "stock": 12,
+        "sku": "dd0566e2-ROS-M"
+      },
+      {
+        "color": "Rose",
+        "size": "L",
+        "stock": 8,
+        "sku": "dd0566e2-ROS-L"
+      }
+    ],
+    "description": "Robe midi à imprimé floral avec ceinture à nouer. Coupe fluide et féminine.",
+    "details": [
+      "100% Viscose",
+      "Lavable en machine",
+      "Fabriqué en France"
+    ],
+    "newArrival": true,
+    "featured": false,
+    "created_at": "2026-04-16T21:45:07.094728+00:00",
+    "updated_at": "2026-04-16T21:45:07.094739+00:00",
+    "lowStockThreshold": 10,
+    "originalPrice": 140.01,
+    "promotionEndDate": "2026-04-26",
+    "promotionStartDate": "2026-04-19",
+    "purchasePrice": 110.0,
+    "updatedAt": "2026-04-19T15:54:42.162413+00:00"
+  },
+  {
+    "id": "5862f0f7-6820-49bb-95cb-115eceb10f39",
+    "name": "Blouse en Soie Satinée",
+    "brand": "Luxe Femme",
+    "price": 89.99,
+    "category": "femme",
+    "subcategory": "vetements",
+    "subSubcategory": "tops-blouses",
+    "images": [
+      "https://images.unsplash.com/photo-1551163943-3f6a855d1153?w=800&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Ivoire",
+        "hex": "#FFFFF0",
+        "available": true,
+        "images": [
+          "https://images.unsplash.com/photo-1551163943-3f6a855d1153?w=800&q=80"
+        ]
+      }
+    ],
+    "sizes": [
+      {
+        "size": "S",
+        "stock": 8
+      },
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "variants": [
+      {
+        "color": "Ivoire",
+        "size": "S",
+        "stock": 8,
+        "sku": "5862f0f7-IVO-S"
+      },
+      {
+        "color": "Ivoire",
+        "size": "M",
+        "stock": 15,
+        "sku": "5862f0f7-IVO-M"
+      },
+      {
+        "color": "Ivoire",
+        "size": "L",
+        "stock": 10,
+        "sku": "5862f0f7-IVO-L"
+      }
+    ],
+    "description": "Blouse élégante en soie satinée avec col V. Idéale pour le bureau ou une sortie.",
+    "details": [
+      "100% Soie",
+      "Nettoyage à sec",
+      "Col V élégant"
+    ],
+    "newArrival": true,
+    "featured": false,
+    "created_at": "2026-04-16T21:45:07.095170+00:00",
+    "updated_at": "2026-04-16T21:45:07.095178+00:00",
+    "lowStockThreshold": 10
+  },
+  {
+    "id": "6797a58c-dedf-439a-aa91-9f9af8d74e81",
+    "name": "Pantalon Palazzo Fluide",
+    "brand": "Mode Active",
+    "price": 79.99,
+    "category": "femme",
+    "subcategory": "vetements",
+    "subSubcategory": "pantalons",
+    "images": [
+      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=800&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Noir",
+        "hex": "#000000",
+        "available": true,
+        "images": [
+          "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=800&q=80"
+        ]
+      }
+    ],
+    "sizes": [
+      {
+        "size": "36",
+        "stock": 6
+      },
+      {
+        "size": "38",
+        "stock": 12
+      },
+      {
+        "size": "40",
+        "stock": 10
+      },
+      {
+        "size": "42",
+        "stock": 7
+      }
+    ],
+    "variants": [
+      {
+        "color": "Noir",
+        "size": "36",
+        "stock": 6,
+        "sku": "6797a58c-NOI-36"
+      },
+      {
+        "color": "Noir",
+        "size": "38",
+        "stock": 12,
+        "sku": "6797a58c-NOI-38"
+      },
+      {
+        "color": "Noir",
+        "size": "40",
+        "stock": 10,
+        "sku": "6797a58c-NOI-40"
+      },
+      {
+        "color": "Noir",
+        "size": "42",
+        "stock": 7,
+        "sku": "6797a58c-NOI-42"
+      }
+    ],
+    "description": "Pantalon palazzo à taille haute, coupe large et fluide. Ultra confortable.",
+    "details": [
+      "Polyester mélangé",
+      "Taille haute élastiquée",
+      "Lavable en machine"
+    ],
+    "newArrival": true,
+    "featured": false,
+    "created_at": "2026-04-16T21:45:07.095486+00:00",
+    "updated_at": "2026-04-16T21:45:07.095490+00:00",
+    "lowStockThreshold": 10
+  },
+  {
+    "id": "7cbb4c6d-1d7a-4458-b3c3-d578ef4f4970",
+    "name": "Jupe Plissée Midi",
+    "brand": "Élégance Paris",
+    "price": 69.99,
+    "category": "femme",
+    "subcategory": "vetements",
+    "subSubcategory": "jupes",
+    "images": [
+      "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?w=800&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Bordeaux",
+        "hex": "#800020",
+        "available": true,
+        "images": [
+          "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?w=800&q=80"
+        ]
+      }
+    ],
+    "sizes": [
+      {
+        "size": "XS",
+        "stock": 4
+      },
+      {
+        "size": "S",
+        "stock": 9
+      },
+      {
+        "size": "M",
+        "stock": 11
+      },
+      {
+        "size": "L",
+        "stock": 6
+      }
+    ],
+    "variants": [
+      {
+        "color": "Bordeaux",
+        "size": "XS",
+        "stock": 4,
+        "sku": "7cbb4c6d-BOR-XS"
+      },
+      {
+        "color": "Bordeaux",
+        "size": "S",
+        "stock": 9,
+        "sku": "7cbb4c6d-BOR-S"
+      },
+      {
+        "color": "Bordeaux",
+        "size": "M",
+        "stock": 11,
+        "sku": "7cbb4c6d-BOR-M"
+      },
+      {
+        "color": "Bordeaux",
+        "size": "L",
+        "stock": 6,
+        "sku": "7cbb4c6d-BOR-L"
+      }
+    ],
+    "description": "Jupe plissée mi-longue en satin. Un classique indémodable.",
+    "details": [
+      "Satin polyester",
+      "Ceinture élastique",
+      "Longueur midi"
+    ],
+    "newArrival": true,
+    "featured": false,
+    "created_at": "2026-04-16T21:45:07.095743+00:00",
+    "updated_at": "2026-04-16T21:45:07.095745+00:00",
+    "lowStockThreshold": 10
+  },
+  {
+    "id": "78917b9c-852b-4b59-b7cc-f86b563f8cbf",
+    "name": "Trench Coat Classique",
+    "brand": "Heritage London",
+    "price": 249.99,
+    "category": "femme",
+    "subcategory": "vetements",
+    "subSubcategory": "vestes-manteaux",
+    "images": [
+      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=800&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Beige",
+        "hex": "#F5F5DC",
+        "available": true,
+        "images": [
+          "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=800&q=80"
+        ]
+      }
+    ],
+    "sizes": [
+      {
+        "size": "S",
+        "stock": 5
+      },
+      {
+        "size": "M",
+        "stock": 8
+      },
+      {
+        "size": "L",
+        "stock": 6
+      },
+      {
+        "size": "XL",
+        "stock": 3
+      }
+    ],
+    "variants": [
+      {
+        "color": "Beige",
+        "size": "S",
+        "stock": 5,
+        "sku": "78917b9c-BEI-S"
+      },
+      {
+        "color": "Beige",
+        "size": "M",
+        "stock": 8,
+        "sku": "78917b9c-BEI-M"
+      },
+      {
+        "color": "Beige",
+        "size": "L",
+        "stock": 6,
+        "sku": "78917b9c-BEI-L"
+      },
+      {
+        "color": "Beige",
+        "size": "XL",
+        "stock": 3,
+        "sku": "78917b9c-BEI-XL"
+      }
+    ],
+    "description": "Trench coat intemporel en coton imperméable. Double boutonnage et ceinture.",
+    "details": [
+      "Coton imperméable",
+      "Double boutonnage",
+      "Fabriqué en Angleterre"
+    ],
+    "newArrival": true,
+    "featured": false,
+    "created_at": "2026-04-16T21:45:07.096035+00:00",
+    "updated_at": "2026-04-16T21:45:07.096037+00:00",
+    "lowStockThreshold": 10
+  },
+  {
+    "id": "8044ff1f-99f4-4a34-9362-35e08d14851c",
+    "name": "Escarpins Cuir Verni",
+    "brand": "Stiletto Paris",
+    "price": 159.99,
+    "category": "femme",
+    "subcategory": "chaussures",
+    "subSubcategory": null,
+    "images": [
+      "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=800&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Noir",
+        "hex": "#000000",
+        "available": true,
+        "images": [
+          "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=800&q=80"
+        ]
+      }
+    ],
+    "sizes": [
+      {
+        "size": "36",
+        "stock": 4
+      },
+      {
+        "size": "37",
+        "stock": 7
+      },
+      {
+        "size": "38",
+        "stock": 9
+      },
+      {
+        "size": "39",
+        "stock": 6
+      },
+      {
+        "size": "40",
+        "stock": 3
+      }
+    ],
+    "variants": [
+      {
+        "color": "Noir",
+        "size": "36",
+        "stock": 4,
+        "sku": "8044ff1f-NOI-36"
+      },
+      {
+        "color": "Noir",
+        "size": "37",
+        "stock": 7,
+        "sku": "8044ff1f-NOI-37"
+      },
+      {
+        "color": "Noir",
+        "size": "38",
+        "stock": 9,
+        "sku": "8044ff1f-NOI-38"
+      },
+      {
+        "color": "Noir",
+        "size": "39",
+        "stock": 6,
+        "sku": "8044ff1f-NOI-39"
+      },
+      {
+        "color": "Noir",
+        "size": "40",
+        "stock": 3,
+        "sku": "8044ff1f-NOI-40"
+      }
+    ],
+    "description": "Escarpins élégants en cuir verni avec talon de 8cm. Bout pointu raffiné.",
+    "details": [
+      "Cuir verni",
+      "Talon 8cm",
+      "Semelle cuir"
+    ],
+    "newArrival": true,
+    "featured": false,
+    "created_at": "2026-04-16T21:45:07.096260+00:00",
+    "updated_at": "2026-04-16T21:45:07.096261+00:00",
+    "lowStockThreshold": 10,
+    "originalPrice": 170.0,
+    "promotionEndDate": "2026-04-26",
+    "promotionStartDate": "2026-04-19",
+    "purchasePrice": 140.0,
+    "updatedAt": "2026-04-19T15:54:16.996608+00:00"
+  },
+  {
+    "id": "f5cd9b82-5220-4ebe-9e95-351e98a239d2",
+    "name": "Baskets Plateforme Blanches",
+    "brand": "Urban Chic",
+    "price": 99.99,
+    "category": "femme",
+    "subcategory": "chaussures",
+    "subSubcategory": "baskets",
+    "images": [
+      "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=800&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Blanc",
+        "hex": "#FFFFFF",
+        "available": true,
+        "images": [
+          "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=800&q=80"
+        ]
+      }
+    ],
+    "sizes": [
+      {
+        "size": "36",
+        "stock": 5
+      },
+      {
+        "size": "37",
+        "stock": 8
+      },
+      {
+        "size": "38",
+        "stock": 12
+      },
+      {
+        "size": "39",
+        "stock": 7
+      },
+      {
+        "size": "40",
+        "stock": 4
+      }
+    ],
+    "variants": [
+      {
+        "color": "Blanc",
+        "size": "36",
+        "stock": 5,
+        "sku": "f5cd9b82-BLA-36"
+      },
+      {
+        "color": "Blanc",
+        "size": "37",
+        "stock": 8,
+        "sku": "f5cd9b82-BLA-37"
+      },
+      {
+        "color": "Blanc",
+        "size": "38",
+        "stock": 12,
+        "sku": "f5cd9b82-BLA-38"
+      },
+      {
+        "color": "Blanc",
+        "size": "39",
+        "stock": 7,
+        "sku": "f5cd9b82-BLA-39"
+      },
+      {
+        "color": "Blanc",
+        "size": "40",
+        "stock": 4,
+        "sku": "f5cd9b82-BLA-40"
+      }
+    ],
+    "description": "Baskets tendance avec semelle plateforme. Confort et style au quotidien.",
+    "details": [
+      "Cuir synthétique",
+      "Semelle plateforme 4cm",
+      "Lacets"
+    ],
+    "newArrival": true,
+    "featured": false,
+    "created_at": "2026-04-16T21:45:07.096468+00:00",
+    "updated_at": "2026-04-16T21:45:07.096470+00:00",
+    "lowStockThreshold": 10
+  },
+  {
+    "id": "9573bf5d-8da3-4389-abf7-ebdea14eeb82",
+    "name": "Bottes Chelsea en Cuir",
+    "brand": "Heritage London",
+    "price": 189.99,
+    "category": "femme",
+    "subcategory": "chaussures",
+    "subSubcategory": "bottes",
+    "images": [
+      "https://images.unsplash.com/photo-1608256246200-53e635b5b65f?w=800&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Marron",
+        "hex": "#8B4513",
+        "available": true,
+        "images": [
+          "https://images.unsplash.com/photo-1608256246200-53e635b5b65f?w=800&q=80"
+        ]
+      }
+    ],
+    "sizes": [
+      {
+        "size": "36",
+        "stock": 3
+      },
+      {
+        "size": "37",
+        "stock": 6
+      },
+      {
+        "size": "38",
+        "stock": 8
+      },
+      {
+        "size": "39",
+        "stock": 5
+      }
+    ],
+    "variants": [
+      {
+        "color": "Marron",
+        "size": "36",
+        "stock": 3,
+        "sku": "9573bf5d-MAR-36"
+      },
+      {
+        "color": "Marron",
+        "size": "37",
+        "stock": 6,
+        "sku": "9573bf5d-MAR-37"
+      },
+      {
+        "color": "Marron",
+        "size": "38",
+        "stock": 8,
+        "sku": "9573bf5d-MAR-38"
+      },
+      {
+        "color": "Marron",
+        "size": "39",
+        "stock": 5,
+        "sku": "9573bf5d-MAR-39"
+      }
+    ],
+    "description": "Bottes Chelsea classiques en cuir souple. Élastique latéral pour un enfilage facile.",
+    "details": [
+      "Cuir véritable",
+      "Semelle caoutchouc",
+      "Élastique latéral"
+    ],
+    "newArrival": true,
+    "featured": false,
+    "created_at": "2026-04-16T21:45:07.096675+00:00",
+    "updated_at": "2026-04-16T21:45:07.096677+00:00",
+    "lowStockThreshold": 10
+  },
+  {
+    "id": "00da006d-664f-41ac-be59-a8d391940bd2",
+    "name": "Sandales à Lanières Dorées",
+    "brand": "Soleil Mode",
+    "price": 69.99,
+    "category": "femme",
+    "subcategory": "chaussures",
+    "subSubcategory": "sandales",
+    "images": [
+      "https://images.unsplash.com/photo-1603487742131-4160ec999306?w=800&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Doré",
+        "hex": "#FFD700",
+        "available": true,
+        "images": [
+          "https://images.unsplash.com/photo-1603487742131-4160ec999306?w=800&q=80"
+        ]
+      }
+    ],
+    "sizes": [
+      {
+        "size": "36",
+        "stock": 6
+      },
+      {
+        "size": "37",
+        "stock": 10
+      },
+      {
+        "size": "38",
+        "stock": 12
+      },
+      {
+        "size": "39",
+        "stock": 8
+      }
+    ],
+    "variants": [
+      {
+        "color": "Doré",
+        "size": "36",
+        "stock": 6,
+        "sku": "00da006d-DOR-36"
+      },
+      {
+        "color": "Doré",
+        "size": "37",
+        "stock": 10,
+        "sku": "00da006d-DOR-37"
+      },
+      {
+        "color": "Doré",
+        "size": "38",
+        "stock": 12,
+        "sku": "00da006d-DOR-38"
+      },
+      {
+        "color": "Doré",
+        "size": "39",
+        "stock": 8,
+        "sku": "00da006d-DOR-39"
+      }
+    ],
+    "description": "Sandales plates avec lanières dorées entrecroisées. Parfaites pour l'été.",
+    "details": [
+      "Cuir synthétique doré",
+      "Semelle plate",
+      "Boucle cheville"
+    ],
+    "newArrival": true,
+    "featured": false,
+    "created_at": "2026-04-16T21:45:07.096917+00:00",
+    "updated_at": "2026-04-16T21:45:07.096919+00:00",
+    "lowStockThreshold": 10
+  },
+  {
+    "id": "1e4d70f8-e710-4043-8309-521f34bdc7be",
+    "name": "Sac Cabas en Cuir Grainé",
+    "brand": "Cuir Premium",
+    "price": 219.99,
+    "category": "femme",
+    "subcategory": "sacs",
+    "subSubcategory": "sacs-a-main",
+    "images": [
+      "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=800&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Noir",
+        "hex": "#000000",
+        "available": true,
+        "images": [
+          "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=800&q=80"
+        ]
+      }
+    ],
+    "sizes": [
+      {
+        "size": "Taille Unique",
+        "stock": 15
+      }
+    ],
+    "variants": [
+      {
+        "color": "Noir",
+        "size": "Taille Unique",
+        "stock": 15,
+        "sku": "1e4d70f8-NOI-Taille Unique"
+      }
+    ],
+    "description": "Grand sac cabas en cuir grainé avec compartiments multiples. Élégant et pratique.",
+    "details": [
+      "Cuir grainé véritable",
+      "Fermeture zippée",
+      "Bandoulière amovible"
+    ],
+    "newArrival": true,
+    "featured": false,
+    "created_at": "2026-04-16T21:45:07.097144+00:00",
+    "updated_at": "2026-04-16T21:45:07.097146+00:00",
+    "lowStockThreshold": 10
+  },
+  {
+    "id": "9f4be8fb-b433-40c7-ada0-961a01a9fb8a",
+    "name": "Pochette de Soirée Pailletée",
+    "brand": "Luxe Femme",
+    "price": 59.99,
+    "category": "femme",
+    "subcategory": "sacs",
+    "subSubcategory": "pochettes",
+    "images": [
+      "https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?w=800&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Or",
+        "hex": "#FFD700",
+        "available": true,
+        "images": [
+          "https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?w=800&q=80"
+        ]
+      }
+    ],
+    "sizes": [
+      {
+        "size": "Taille Unique",
+        "stock": 20
+      }
+    ],
+    "variants": [
+      {
+        "color": "Or",
+        "size": "Taille Unique",
+        "stock": 20,
+        "sku": "9f4be8fb-OR-Taille Unique"
+      }
+    ],
+    "description": "Pochette de soirée ornée de paillettes. Chaîne dorée amovible incluse.",
+    "details": [
+      "Tissu pailleté",
+      "Chaîne dorée amovible",
+      "Fermoir magnétique"
+    ],
+    "newArrival": true,
+    "featured": false,
+    "created_at": "2026-04-16T21:45:07.097364+00:00",
+    "updated_at": "2026-04-16T21:45:07.097366+00:00",
+    "lowStockThreshold": 10
+  },
+  {
+    "id": "cd047c5f-b4be-4ab4-9739-6a257deaf0ae",
+    "name": "Sac à Dos Urbain Cuir",
+    "brand": "Urban Chic",
+    "price": 139.99,
+    "category": "femme",
+    "subcategory": "sacs",
+    "subSubcategory": "sacs-a-dos",
+    "images": [
+      "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Taupe",
+        "hex": "#483C32",
+        "available": true,
+        "images": [
+          "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800&q=80"
+        ]
+      }
+    ],
+    "sizes": [
+      {
+        "size": "Taille Unique",
+        "stock": 12
+      }
+    ],
+    "variants": [
+      {
+        "color": "Taupe",
+        "size": "Taille Unique",
+        "stock": 12,
+        "sku": "cd047c5f-TAU-Taille Unique"
+      }
+    ],
+    "description": "Sac à dos compact en cuir végétal. Design minimaliste et fonctionnel.",
+    "details": [
+      "Cuir végétal",
+      "Poche laptop 13\"",
+      "Bretelles ajustables"
+    ],
+    "newArrival": true,
+    "featured": false,
+    "created_at": "2026-04-16T21:45:07.097605+00:00",
+    "updated_at": "2026-04-16T21:45:07.097609+00:00",
+    "lowStockThreshold": 10
+  },
+  {
+    "id": "7cf7c21a-2337-4016-8289-3cd4918dcee6",
+    "name": "Bralette en Dentelle",
+    "brand": "Intimité",
+    "price": 39.99,
+    "category": "femme",
+    "subcategory": "lingerie",
+    "subSubcategory": "soutiens-gorge",
+    "images": [
+      "https://images.unsplash.com/photo-1617331721458-bd3bd3f9c7f8?w=800&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Nude",
+        "hex": "#E8C4A0",
+        "available": true,
+        "images": [
+          "https://images.unsplash.com/photo-1617331721458-bd3bd3f9c7f8?w=800&q=80"
+        ]
+      }
+    ],
+    "sizes": [
+      {
+        "size": "S",
+        "stock": 10
+      },
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "variants": [
+      {
+        "color": "Nude",
+        "size": "S",
+        "stock": 10,
+        "sku": "7cf7c21a-NUD-S"
+      },
+      {
+        "color": "Nude",
+        "size": "M",
+        "stock": 15,
+        "sku": "7cf7c21a-NUD-M"
+      },
+      {
+        "color": "Nude",
+        "size": "L",
+        "stock": 10,
+        "sku": "7cf7c21a-NUD-L"
+      }
+    ],
+    "description": "Bralette délicate en dentelle florale. Sans armatures pour un confort optimal.",
+    "details": [
+      "Dentelle florale",
+      "Sans armatures",
+      "Bretelles ajustables"
+    ],
+    "newArrival": true,
+    "featured": false,
+    "created_at": "2026-04-16T21:45:07.097862+00:00",
+    "updated_at": "2026-04-16T21:45:07.097865+00:00",
+    "lowStockThreshold": 10
+  },
+  {
+    "id": "dcb529c0-4d1c-412b-9bf1-8875d5a433f3",
+    "name": "Pyjama Satin Rose",
+    "brand": "Intimité",
+    "price": 59.99,
+    "category": "femme",
+    "subcategory": "lingerie",
+    "subSubcategory": "pyjamas-femme",
+    "images": [
+      "https://images.unsplash.com/photo-1616627547584-bf28cee262db?w=800&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Rose poudré",
+        "hex": "#E8B4B8",
+        "available": true,
+        "images": [
+          "https://images.unsplash.com/photo-1616627547584-bf28cee262db?w=800&q=80"
+        ]
+      }
+    ],
+    "sizes": [
+      {
+        "size": "S",
+        "stock": 8
+      },
+      {
+        "size": "M",
+        "stock": 12
+      },
+      {
+        "size": "L",
+        "stock": 9
+      }
+    ],
+    "variants": [
+      {
+        "color": "Rose poudré",
+        "size": "S",
+        "stock": 8,
+        "sku": "dcb529c0-ROS-S"
+      },
+      {
+        "color": "Rose poudré",
+        "size": "M",
+        "stock": 12,
+        "sku": "dcb529c0-ROS-M"
+      },
+      {
+        "color": "Rose poudré",
+        "size": "L",
+        "stock": 9,
+        "sku": "dcb529c0-ROS-L"
+      }
+    ],
+    "description": "Ensemble pyjama en satin doux. Short et chemise à manches courtes.",
+    "details": [
+      "Satin polyester",
+      "Ensemble 2 pièces",
+      "Lavable en machine"
+    ],
+    "newArrival": true,
+    "featured": false,
+    "created_at": "2026-04-16T21:45:07.098177+00:00",
+    "updated_at": "2026-04-16T21:45:07.098179+00:00",
+    "lowStockThreshold": 10
+  },
+  {
+    "id": "d3ea7337-ad72-40ae-b035-bec1ccef6d6b",
+    "name": "Chemise Oxford Slim Fit",
+    "brand": "Classic Homme",
+    "price": 69.99,
+    "category": "homme",
+    "subcategory": "vetements",
+    "subSubcategory": "chemises",
+    "images": [
+      "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=800&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Bleu ciel",
+        "hex": "#87CEEB",
+        "available": true,
+        "images": [
+          "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=800&q=80"
+        ]
+      }
+    ],
+    "sizes": [
+      {
+        "size": "S",
+        "stock": 10
+      },
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 12
+      },
+      {
+        "size": "XL",
+        "stock": 8
+      }
+    ],
+    "variants": [
+      {
+        "color": "Bleu ciel",
+        "size": "S",
+        "stock": 10,
+        "sku": "d3ea7337-BLE-S"
+      },
+      {
+        "color": "Bleu ciel",
+        "size": "M",
+        "stock": 15,
+        "sku": "d3ea7337-BLE-M"
+      },
+      {
+        "color": "Bleu ciel",
+        "size": "L",
+        "stock": 12,
+        "sku": "d3ea7337-BLE-L"
+      },
+      {
+        "color": "Bleu ciel",
+        "size": "XL",
+        "stock": 8,
+        "sku": "d3ea7337-BLE-XL"
+      }
+    ],
+    "description": "Chemise Oxford classique coupe slim. Col boutonné et tissu premium.",
+    "details": [
+      "100% Coton Oxford",
+      "Coupe Slim Fit",
+      "Col boutonné"
+    ],
+    "newArrival": true,
+    "featured": false,
+    "created_at": "2026-04-16T21:45:07.098413+00:00",
+    "updated_at": "2026-04-16T21:45:07.098415+00:00",
+    "lowStockThreshold": 10
+  },
+  {
+    "id": "7288a44e-47e9-4f4f-8624-ede5e33fbeba",
+    "name": "Polo Piqué Premium",
+    "brand": "Sport Luxe",
+    "price": 49.99,
+    "category": "homme",
+    "subcategory": "vetements",
+    "subSubcategory": "tshirts-polos",
+    "images": [
+      "https://images.unsplash.com/photo-1775816364124-b305f2b06ce7?w=800&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Marine",
+        "hex": "#001f3f",
+        "available": true,
+        "images": [
+          "https://images.unsplash.com/photo-1775816364124-b305f2b06ce7?w=800&q=80"
+        ]
+      }
+    ],
+    "sizes": [
+      {
+        "size": "S",
+        "stock": 12
+      },
+      {
+        "size": "M",
+        "stock": 18
+      },
+      {
+        "size": "L",
+        "stock": 16
+      },
+      {
+        "size": "XL",
+        "stock": 10
+      }
+    ],
+    "variants": [
+      {
+        "color": "Marine",
+        "size": "S",
+        "stock": 12,
+        "sku": "7288a44e-MAR-S"
+      },
+      {
+        "color": "Marine",
+        "size": "M",
+        "stock": 18,
+        "sku": "7288a44e-MAR-M"
+      },
+      {
+        "color": "Marine",
+        "size": "L",
+        "stock": 16,
+        "sku": "7288a44e-MAR-L"
+      },
+      {
+        "color": "Marine",
+        "size": "XL",
+        "stock": 10,
+        "sku": "7288a44e-MAR-XL"
+      }
+    ],
+    "description": "Polo en coton piqué avec broderie logo. Coupe regular confortable.",
+    "details": [
+      "Coton piqué",
+      "Coupe Regular",
+      "Col côtelé"
+    ],
+    "newArrival": true,
+    "featured": false,
+    "created_at": "2026-04-16T21:45:07.098650+00:00",
+    "updated_at": "2026-04-16T21:45:07.098652+00:00",
+    "lowStockThreshold": 10
+  },
+  {
+    "id": "49d983cc-8924-4040-b29c-903f0aa8acf3",
+    "name": "Jean Slim Stretch",
+    "brand": "Denim Co",
+    "price": 89.99,
+    "category": "homme",
+    "subcategory": "vetements",
+    "subSubcategory": "pantalons-jeans",
+    "images": [
+      "https://images.unsplash.com/photo-1542272604-787c3835535d?w=800&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Indigo",
+        "hex": "#3F51B5",
+        "available": true,
+        "images": [
+          "https://images.unsplash.com/photo-1542272604-787c3835535d?w=800&q=80"
+        ]
+      }
+    ],
+    "sizes": [
+      {
+        "size": "28",
+        "stock": 5
+      },
+      {
+        "size": "30",
+        "stock": 10
+      },
+      {
+        "size": "32",
+        "stock": 14
+      },
+      {
+        "size": "34",
+        "stock": 10
+      },
+      {
+        "size": "36",
+        "stock": 6
+      }
+    ],
+    "variants": [
+      {
+        "color": "Indigo",
+        "size": "28",
+        "stock": 5,
+        "sku": "49d983cc-IND-28"
+      },
+      {
+        "color": "Indigo",
+        "size": "30",
+        "stock": 10,
+        "sku": "49d983cc-IND-30"
+      },
+      {
+        "color": "Indigo",
+        "size": "32",
+        "stock": 14,
+        "sku": "49d983cc-IND-32"
+      },
+      {
+        "color": "Indigo",
+        "size": "34",
+        "stock": 10,
+        "sku": "49d983cc-IND-34"
+      },
+      {
+        "color": "Indigo",
+        "size": "36",
+        "stock": 6,
+        "sku": "49d983cc-IND-36"
+      }
+    ],
+    "description": "Jean slim en denim stretch pour un confort optimal. Finition brute indigo.",
+    "details": [
+      "98% Coton, 2% Élasthanne",
+      "Coupe Slim",
+      "Denim stretch"
+    ],
+    "newArrival": true,
+    "featured": false,
+    "created_at": "2026-04-16T21:45:07.098885+00:00",
+    "updated_at": "2026-04-16T21:45:07.098887+00:00",
+    "lowStockThreshold": 10
+  },
+  {
+    "id": "27ebe8be-dbc1-4330-8cac-03029b72bc1d",
+    "name": "Pull Col Roulé Mérinos",
+    "brand": "Luxe Doux",
+    "price": 129.99,
+    "category": "homme",
+    "subcategory": "vetements",
+    "subSubcategory": "pulls-sweats",
+    "images": [
+      "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=800&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Gris chiné",
+        "hex": "#808080",
+        "available": true,
+        "images": [
+          "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=800&q=80"
+        ]
+      }
+    ],
+    "sizes": [
+      {
+        "size": "S",
+        "stock": 7
+      },
+      {
+        "size": "M",
+        "stock": 12
+      },
+      {
+        "size": "L",
+        "stock": 10
+      },
+      {
+        "size": "XL",
+        "stock": 5
+      }
+    ],
+    "variants": [
+      {
+        "color": "Gris chiné",
+        "size": "S",
+        "stock": 7,
+        "sku": "27ebe8be-GRI-S"
+      },
+      {
+        "color": "Gris chiné",
+        "size": "M",
+        "stock": 12,
+        "sku": "27ebe8be-GRI-M"
+      },
+      {
+        "color": "Gris chiné",
+        "size": "L",
+        "stock": 10,
+        "sku": "27ebe8be-GRI-L"
+      },
+      {
+        "color": "Gris chiné",
+        "size": "XL",
+        "stock": 5,
+        "sku": "27ebe8be-GRI-XL"
+      }
+    ],
+    "description": "Pull col roulé en laine mérinos extra-fine. Chaleur et élégance.",
+    "details": [
+      "Laine Mérinos",
+      "Col roulé",
+      "Lavage à la main"
+    ],
+    "newArrival": true,
+    "featured": false,
+    "created_at": "2026-04-16T21:45:07.099096+00:00",
+    "updated_at": "2026-04-16T21:45:07.099098+00:00",
+    "lowStockThreshold": 10
+  },
+  {
+    "id": "58989a41-9523-487e-8996-bfaef09ac41a",
+    "name": "Parka Imperméable",
+    "brand": "Outdoor Premium",
+    "price": 199.99,
+    "category": "homme",
+    "subcategory": "vetements",
+    "subSubcategory": "vestes-manteaux",
+    "images": [
+      "https://images.unsplash.com/photo-1525360945394-7bccf2809123?w=800&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Kaki",
+        "hex": "#556B2F",
+        "available": true,
+        "images": [
+          "https://images.unsplash.com/photo-1525360945394-7bccf2809123?w=800&q=80"
+        ]
+      }
+    ],
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 8
+      },
+      {
+        "size": "L",
+        "stock": 10
+      },
+      {
+        "size": "XL",
+        "stock": 7
+      },
+      {
+        "size": "XXL",
+        "stock": 4
+      }
+    ],
+    "variants": [
+      {
+        "color": "Kaki",
+        "size": "M",
+        "stock": 8,
+        "sku": "58989a41-KAK-M"
+      },
+      {
+        "color": "Kaki",
+        "size": "L",
+        "stock": 10,
+        "sku": "58989a41-KAK-L"
+      },
+      {
+        "color": "Kaki",
+        "size": "XL",
+        "stock": 7,
+        "sku": "58989a41-KAK-XL"
+      },
+      {
+        "color": "Kaki",
+        "size": "XXL",
+        "stock": 4,
+        "sku": "58989a41-KAK-XXL"
+      }
+    ],
+    "description": "Parka imperméable avec capuche amovible et doublure chaude. Idéale mi-saison.",
+    "details": [
+      "Tissu imperméable",
+      "Capuche amovible",
+      "Poches multiples"
+    ],
+    "newArrival": true,
+    "featured": false,
+    "created_at": "2026-04-16T21:45:07.099311+00:00",
+    "updated_at": "2026-04-16T21:45:07.099313+00:00",
+    "lowStockThreshold": 10
+  },
+  {
+    "id": "a2467ab7-1466-48f8-b430-20859fac9771",
+    "name": "Blazer Laine Italienne",
+    "brand": "Excellence Sur Mesure",
+    "price": 299.99,
+    "category": "homme",
+    "subcategory": "costumes",
+    "subSubcategory": "blazers",
+    "images": [
+      "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=800&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Marine",
+        "hex": "#001f3f",
+        "available": true,
+        "images": [
+          "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=800&q=80"
+        ]
+      }
+    ],
+    "sizes": [
+      {
+        "size": "48",
+        "stock": 5
+      },
+      {
+        "size": "50",
+        "stock": 8
+      },
+      {
+        "size": "52",
+        "stock": 7
+      },
+      {
+        "size": "54",
+        "stock": 4
+      }
+    ],
+    "variants": [
+      {
+        "color": "Marine",
+        "size": "48",
+        "stock": 5,
+        "sku": "a2467ab7-MAR-48"
+      },
+      {
+        "color": "Marine",
+        "size": "50",
+        "stock": 8,
+        "sku": "a2467ab7-MAR-50"
+      },
+      {
+        "color": "Marine",
+        "size": "52",
+        "stock": 7,
+        "sku": "a2467ab7-MAR-52"
+      },
+      {
+        "color": "Marine",
+        "size": "54",
+        "stock": 4,
+        "sku": "a2467ab7-MAR-54"
+      }
+    ],
+    "description": "Blazer deux boutons en laine italienne super 120's. Coupe ajustée contemporaine.",
+    "details": [
+      "Laine Super 120's",
+      "Doublure viscose",
+      "Fabriqué en Italie"
+    ],
+    "newArrival": true,
+    "featured": false,
+    "created_at": "2026-04-16T21:45:07.099517+00:00",
+    "updated_at": "2026-04-16T21:45:07.099518+00:00",
+    "lowStockThreshold": 10
+  },
+  {
+    "id": "68e3a2ed-96bc-4de5-be10-b85b71ebfe99",
+    "name": "Pantalon à Plis Laine",
+    "brand": "Excellence Sur Mesure",
+    "price": 149.99,
+    "category": "homme",
+    "subcategory": "costumes",
+    "subSubcategory": "pantalons-habilles",
+    "images": [
+      "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=800&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Charbon",
+        "hex": "#36454F",
+        "available": true,
+        "images": [
+          "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=800&q=80"
+        ]
+      }
+    ],
+    "sizes": [
+      {
+        "size": "48",
+        "stock": 6
+      },
+      {
+        "size": "50",
+        "stock": 10
+      },
+      {
+        "size": "52",
+        "stock": 8
+      },
+      {
+        "size": "54",
+        "stock": 5
+      }
+    ],
+    "variants": [
+      {
+        "color": "Charbon",
+        "size": "48",
+        "stock": 6,
+        "sku": "68e3a2ed-CHA-48"
+      },
+      {
+        "color": "Charbon",
+        "size": "50",
+        "stock": 10,
+        "sku": "68e3a2ed-CHA-50"
+      },
+      {
+        "color": "Charbon",
+        "size": "52",
+        "stock": 8,
+        "sku": "68e3a2ed-CHA-52"
+      },
+      {
+        "color": "Charbon",
+        "size": "54",
+        "stock": 5,
+        "sku": "68e3a2ed-CHA-54"
+      }
+    ],
+    "description": "Pantalon de costume à plis en laine vierge. Coupe classique avec pli permanent.",
+    "details": [
+      "Laine vierge",
+      "Pli permanent",
+      "Ceinture ajustable"
+    ],
+    "newArrival": true,
+    "featured": false,
+    "created_at": "2026-04-16T21:45:07.099722+00:00",
+    "updated_at": "2026-04-16T21:45:07.099724+00:00",
+    "lowStockThreshold": 10
+  },
+  {
+    "id": "37cdfb7a-8425-4799-90a2-9f89965f884a",
+    "name": "Costume 3 Pièces Anthracite",
+    "brand": "Excellence Sur Mesure",
+    "price": 499.99,
+    "category": "homme",
+    "subcategory": "costumes",
+    "subSubcategory": "costumes-complets",
+    "images": [
+      "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=800&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Anthracite",
+        "hex": "#36454F",
+        "available": true,
+        "images": [
+          "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=800&q=80"
+        ]
+      }
+    ],
+    "sizes": [
+      {
+        "size": "48",
+        "stock": 3
+      },
+      {
+        "size": "50",
+        "stock": 6
+      },
+      {
+        "size": "52",
+        "stock": 5
+      },
+      {
+        "size": "54",
+        "stock": 3
+      }
+    ],
+    "variants": [
+      {
+        "color": "Anthracite",
+        "size": "48",
+        "stock": 3,
+        "sku": "37cdfb7a-ANT-48"
+      },
+      {
+        "color": "Anthracite",
+        "size": "50",
+        "stock": 6,
+        "sku": "37cdfb7a-ANT-50"
+      },
+      {
+        "color": "Anthracite",
+        "size": "52",
+        "stock": 5,
+        "sku": "37cdfb7a-ANT-52"
+      },
+      {
+        "color": "Anthracite",
+        "size": "54",
+        "stock": 3,
+        "sku": "37cdfb7a-ANT-54"
+      }
+    ],
+    "description": "Costume 3 pièces (veste, pantalon, gilet) en laine fine. L'élégance absolue.",
+    "details": [
+      "Laine fine italienne",
+      "3 pièces incluses",
+      "Doublure complète"
+    ],
+    "newArrival": true,
+    "featured": false,
+    "created_at": "2026-04-16T21:45:07.099964+00:00",
+    "updated_at": "2026-04-16T21:45:07.099966+00:00",
+    "lowStockThreshold": 10
+  },
+  {
+    "id": "7aeeba01-9aed-4743-b7e1-ade56e8a16c8",
+    "name": "Sneakers Cuir Minimalistes",
+    "brand": "Urban Chic",
+    "price": 139.99,
+    "category": "homme",
+    "subcategory": "chaussures",
+    "subSubcategory": "sneakers",
+    "images": [
+      "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=800&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Blanc",
+        "hex": "#FFFFFF",
+        "available": true,
+        "images": [
+          "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=800&q=80"
+        ]
+      }
+    ],
+    "sizes": [
+      {
+        "size": "40",
+        "stock": 6
+      },
+      {
+        "size": "41",
+        "stock": 9
+      },
+      {
+        "size": "42",
+        "stock": 12
+      },
+      {
+        "size": "43",
+        "stock": 8
+      },
+      {
+        "size": "44",
+        "stock": 5
+      }
+    ],
+    "variants": [
+      {
+        "color": "Blanc",
+        "size": "40",
+        "stock": 6,
+        "sku": "7aeeba01-BLA-40"
+      },
+      {
+        "color": "Blanc",
+        "size": "41",
+        "stock": 9,
+        "sku": "7aeeba01-BLA-41"
+      },
+      {
+        "color": "Blanc",
+        "size": "42",
+        "stock": 12,
+        "sku": "7aeeba01-BLA-42"
+      },
+      {
+        "color": "Blanc",
+        "size": "43",
+        "stock": 8,
+        "sku": "7aeeba01-BLA-43"
+      },
+      {
+        "color": "Blanc",
+        "size": "44",
+        "stock": 5,
+        "sku": "7aeeba01-BLA-44"
+      }
+    ],
+    "description": "Sneakers en cuir lisse au design épuré. Semelle blanche contrastante.",
+    "details": [
+      "Cuir pleine fleur",
+      "Semelle caoutchouc",
+      "Fabriqué au Portugal"
+    ],
+    "newArrival": true,
+    "featured": false,
+    "created_at": "2026-04-16T21:45:07.100181+00:00",
+    "updated_at": "2026-04-16T21:45:07.100183+00:00",
+    "lowStockThreshold": 10
+  },
+  {
+    "id": "06cf3c33-0a7c-4715-a7a9-0aec0d95607d",
+    "name": "Richelieu Cuir Noir",
+    "brand": "Chaussures Classiques",
+    "price": 219.99,
+    "category": "homme",
+    "subcategory": "chaussures",
+    "subSubcategory": "chaussures-habillees",
+    "images": [
+      "https://images.unsplash.com/photo-1533867617858-e7b97e060509?w=800&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Noir",
+        "hex": "#000000",
+        "available": true,
+        "images": [
+          "https://images.unsplash.com/photo-1533867617858-e7b97e060509?w=800&q=80"
+        ]
+      }
+    ],
+    "sizes": [
+      {
+        "size": "40",
+        "stock": 4
+      },
+      {
+        "size": "41",
+        "stock": 7
+      },
+      {
+        "size": "42",
+        "stock": 10
+      },
+      {
+        "size": "43",
+        "stock": 6
+      },
+      {
+        "size": "44",
+        "stock": 3
+      }
+    ],
+    "variants": [
+      {
+        "color": "Noir",
+        "size": "40",
+        "stock": 4,
+        "sku": "06cf3c33-NOI-40"
+      },
+      {
+        "color": "Noir",
+        "size": "41",
+        "stock": 7,
+        "sku": "06cf3c33-NOI-41"
+      },
+      {
+        "color": "Noir",
+        "size": "42",
+        "stock": 10,
+        "sku": "06cf3c33-NOI-42"
+      },
+      {
+        "color": "Noir",
+        "size": "43",
+        "stock": 6,
+        "sku": "06cf3c33-NOI-43"
+      },
+      {
+        "color": "Noir",
+        "size": "44",
+        "stock": 3,
+        "sku": "06cf3c33-NOI-44"
+      }
+    ],
+    "description": "Richelieu en cuir poli cousues Goodyear. L'élégance masculine par excellence.",
+    "details": [
+      "Cuir poli",
+      "Cousu Goodyear",
+      "Semelle cuir"
+    ],
+    "newArrival": true,
+    "featured": false,
+    "created_at": "2026-04-16T21:45:07.100387+00:00",
+    "updated_at": "2026-04-16T21:45:07.100389+00:00",
+    "lowStockThreshold": 10
+  },
+  {
+    "id": "dcba9aea-7d8c-450b-95ff-e9b413755710",
+    "name": "Boots Desert Suède",
+    "brand": "Heritage London",
+    "price": 169.99,
+    "category": "homme",
+    "subcategory": "chaussures",
+    "subSubcategory": "boots",
+    "images": [
+      "https://images.unsplash.com/photo-1614252235316-8c857d38b5f4?w=800&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Sable",
+        "hex": "#C2B280",
+        "available": true,
+        "images": [
+          "https://images.unsplash.com/photo-1614252235316-8c857d38b5f4?w=800&q=80"
+        ]
+      }
+    ],
+    "sizes": [
+      {
+        "size": "40",
+        "stock": 5
+      },
+      {
+        "size": "41",
+        "stock": 8
+      },
+      {
+        "size": "42",
+        "stock": 10
+      },
+      {
+        "size": "43",
+        "stock": 6
+      }
+    ],
+    "variants": [
+      {
+        "color": "Sable",
+        "size": "40",
+        "stock": 5,
+        "sku": "dcba9aea-SAB-40"
+      },
+      {
+        "color": "Sable",
+        "size": "41",
+        "stock": 8,
+        "sku": "dcba9aea-SAB-41"
+      },
+      {
+        "color": "Sable",
+        "size": "42",
+        "stock": 10,
+        "sku": "dcba9aea-SAB-42"
+      },
+      {
+        "color": "Sable",
+        "size": "43",
+        "stock": 6,
+        "sku": "dcba9aea-SAB-43"
+      }
+    ],
+    "description": "Desert boots en daim véritable avec semelle crêpe. Style décontracté chic.",
+    "details": [
+      "Daim véritable",
+      "Semelle crêpe",
+      "Lacets coton"
+    ],
+    "newArrival": true,
+    "featured": false,
+    "created_at": "2026-04-16T21:45:07.100595+00:00",
+    "updated_at": "2026-04-16T21:45:07.100597+00:00",
+    "lowStockThreshold": 10
+  },
+  {
+    "id": "ae11c010-3002-48c7-92a1-246544d52b89",
+    "name": "Mocassins Cuir Souple",
+    "brand": "Cuir Premium",
+    "price": 149.99,
+    "category": "homme",
+    "subcategory": "chaussures",
+    "subSubcategory": "mocassins",
+    "images": [
+      "https://images.unsplash.com/photo-1616406432452-07bc5938759d?w=800&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Cognac",
+        "hex": "#834333",
+        "available": true,
+        "images": [
+          "https://images.unsplash.com/photo-1616406432452-07bc5938759d?w=800&q=80"
+        ]
+      }
+    ],
+    "sizes": [
+      {
+        "size": "40",
+        "stock": 4
+      },
+      {
+        "size": "41",
+        "stock": 7
+      },
+      {
+        "size": "42",
+        "stock": 9
+      },
+      {
+        "size": "43",
+        "stock": 5
+      }
+    ],
+    "variants": [
+      {
+        "color": "Cognac",
+        "size": "40",
+        "stock": 4,
+        "sku": "ae11c010-COG-40"
+      },
+      {
+        "color": "Cognac",
+        "size": "41",
+        "stock": 7,
+        "sku": "ae11c010-COG-41"
+      },
+      {
+        "color": "Cognac",
+        "size": "42",
+        "stock": 9,
+        "sku": "ae11c010-COG-42"
+      },
+      {
+        "color": "Cognac",
+        "size": "43",
+        "stock": 5,
+        "sku": "ae11c010-COG-43"
+      }
+    ],
+    "description": "Mocassins en cuir souple avec couture traditionnelle. Confort incomparable.",
+    "details": [
+      "Cuir souple",
+      "Couture main",
+      "Semelle flexible"
+    ],
+    "newArrival": true,
+    "featured": false,
+    "created_at": "2026-04-16T21:45:07.100821+00:00",
+    "updated_at": "2026-04-16T21:45:07.100823+00:00",
+    "lowStockThreshold": 10
+  },
+  {
+    "id": "5754c669-422e-4fc4-9547-cf8ce419cb8b",
+    "name": "Robe à Volants Enfant",
+    "brand": "Style Jeunesse",
+    "price": 34.99,
+    "category": "enfant",
+    "subcategory": "filles",
+    "subSubcategory": "robes-jupes",
+    "images": [
+      "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=800&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Floral",
+        "hex": "#FFB6C1",
+        "available": true,
+        "images": [
+          "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=800&q=80"
+        ]
+      }
+    ],
+    "sizes": [
+      {
+        "size": "4A",
+        "stock": 8
+      },
+      {
+        "size": "6A",
+        "stock": 12
+      },
+      {
+        "size": "8A",
+        "stock": 10
+      },
+      {
+        "size": "10A",
+        "stock": 7
+      }
+    ],
+    "variants": [
+      {
+        "color": "Floral",
+        "size": "4A",
+        "stock": 8,
+        "sku": "5754c669-FLO-4A"
+      },
+      {
+        "color": "Floral",
+        "size": "6A",
+        "stock": 12,
+        "sku": "5754c669-FLO-6A"
+      },
+      {
+        "color": "Floral",
+        "size": "8A",
+        "stock": 10,
+        "sku": "5754c669-FLO-8A"
+      },
+      {
+        "color": "Floral",
+        "size": "10A",
+        "stock": 7,
+        "sku": "5754c669-FLO-10A"
+      }
+    ],
+    "description": "Adorable robe à volants en coton doux. Imprimé liberty coloré.",
+    "details": [
+      "100% Coton",
+      "Lavable en machine",
+      "Volants superposés"
+    ],
+    "newArrival": true,
+    "featured": false,
+    "created_at": "2026-04-16T21:45:07.101033+00:00",
+    "updated_at": "2026-04-16T21:45:07.101034+00:00",
+    "lowStockThreshold": 10
+  },
+  {
+    "id": "148054db-38aa-467b-a7db-d03f00faa9f5",
+    "name": "T-shirt Licorne Pailleté",
+    "brand": "Style Jeunesse",
+    "price": 19.99,
+    "category": "enfant",
+    "subcategory": "filles",
+    "subSubcategory": "tops-tshirts-filles",
+    "images": [
+      "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=800&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Blanc",
+        "hex": "#FFFFFF",
+        "available": true,
+        "images": [
+          "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=800&q=80"
+        ]
+      }
+    ],
+    "sizes": [
+      {
+        "size": "4A",
+        "stock": 15
+      },
+      {
+        "size": "6A",
+        "stock": 18
+      },
+      {
+        "size": "8A",
+        "stock": 14
+      },
+      {
+        "size": "10A",
+        "stock": 10
+      }
+    ],
+    "variants": [
+      {
+        "color": "Blanc",
+        "size": "4A",
+        "stock": 15,
+        "sku": "148054db-BLA-4A"
+      },
+      {
+        "color": "Blanc",
+        "size": "6A",
+        "stock": 18,
+        "sku": "148054db-BLA-6A"
+      },
+      {
+        "color": "Blanc",
+        "size": "8A",
+        "stock": 14,
+        "sku": "148054db-BLA-8A"
+      },
+      {
+        "color": "Blanc",
+        "size": "10A",
+        "stock": 10,
+        "sku": "148054db-BLA-10A"
+      }
+    ],
+    "description": "T-shirt en coton bio avec motif licorne pailleté réversible.",
+    "details": [
+      "Coton bio",
+      "Paillettes réversibles",
+      "Col rond"
+    ],
+    "newArrival": true,
+    "featured": false,
+    "created_at": "2026-04-16T21:45:07.101246+00:00",
+    "updated_at": "2026-04-16T21:45:07.101247+00:00",
+    "lowStockThreshold": 10
+  },
+  {
+    "id": "2a17c05a-f4ad-4d40-884a-d76e28c6eb9d",
+    "name": "Legging Imprimé Étoiles",
+    "brand": "Kids Comfort",
+    "price": 14.99,
+    "category": "enfant",
+    "subcategory": "filles",
+    "subSubcategory": "pantalons-filles",
+    "images": [
+      "https://images.unsplash.com/photo-1471286174890-9c112ffca5b4?w=800&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Marine étoilé",
+        "hex": "#001f3f",
+        "available": true,
+        "images": [
+          "https://images.unsplash.com/photo-1471286174890-9c112ffca5b4?w=800&q=80"
+        ]
+      }
+    ],
+    "sizes": [
+      {
+        "size": "4A",
+        "stock": 12
+      },
+      {
+        "size": "6A",
+        "stock": 15
+      },
+      {
+        "size": "8A",
+        "stock": 13
+      },
+      {
+        "size": "10A",
+        "stock": 8
+      }
+    ],
+    "variants": [
+      {
+        "color": "Marine étoilé",
+        "size": "4A",
+        "stock": 12,
+        "sku": "2a17c05a-MAR-4A"
+      },
+      {
+        "color": "Marine étoilé",
+        "size": "6A",
+        "stock": 15,
+        "sku": "2a17c05a-MAR-6A"
+      },
+      {
+        "color": "Marine étoilé",
+        "size": "8A",
+        "stock": 13,
+        "sku": "2a17c05a-MAR-8A"
+      },
+      {
+        "color": "Marine étoilé",
+        "size": "10A",
+        "stock": 8,
+        "sku": "2a17c05a-MAR-10A"
+      }
+    ],
+    "description": "Legging stretch imprimé étoiles. Ceinture élastique confortable.",
+    "details": [
+      "Coton/Élasthanne",
+      "Ceinture élastique",
+      "Imprimé étoiles"
+    ],
+    "newArrival": true,
+    "featured": false,
+    "created_at": "2026-04-16T21:45:07.101462+00:00",
+    "updated_at": "2026-04-16T21:45:07.101465+00:00",
+    "lowStockThreshold": 10
+  },
+  {
+    "id": "650fba79-71f1-465a-a0d8-6c9600e82af2",
+    "name": "T-shirt Dinosaure 3D",
+    "brand": "Kids Comfort",
+    "price": 17.99,
+    "category": "enfant",
+    "subcategory": "garcons",
+    "subSubcategory": "tshirts-polos-garcons",
+    "images": [
+      "https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=800&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Vert",
+        "hex": "#228B22",
+        "available": true,
+        "images": [
+          "https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=800&q=80"
+        ]
+      }
+    ],
+    "sizes": [
+      {
+        "size": "4A",
+        "stock": 14
+      },
+      {
+        "size": "6A",
+        "stock": 16
+      },
+      {
+        "size": "8A",
+        "stock": 12
+      },
+      {
+        "size": "10A",
+        "stock": 9
+      }
+    ],
+    "variants": [
+      {
+        "color": "Vert",
+        "size": "4A",
+        "stock": 14,
+        "sku": "650fba79-VER-4A"
+      },
+      {
+        "color": "Vert",
+        "size": "6A",
+        "stock": 16,
+        "sku": "650fba79-VER-6A"
+      },
+      {
+        "color": "Vert",
+        "size": "8A",
+        "stock": 12,
+        "sku": "650fba79-VER-8A"
+      },
+      {
+        "color": "Vert",
+        "size": "10A",
+        "stock": 9,
+        "sku": "650fba79-VER-10A"
+      }
+    ],
+    "description": "T-shirt fun avec impression 3D de dinosaure. Coton doux et résistant.",
+    "details": [
+      "100% Coton",
+      "Impression 3D",
+      "Lavable en machine"
+    ],
+    "newArrival": true,
+    "featured": false,
+    "created_at": "2026-04-16T21:45:07.101669+00:00",
+    "updated_at": "2026-04-16T21:45:07.101671+00:00",
+    "lowStockThreshold": 10
+  },
+  {
+    "id": "11626cf2-05df-4cc6-919e-fef5f8ed1a12",
+    "name": "Jean Slim Enfant",
+    "brand": "Denim Co Junior",
+    "price": 29.99,
+    "category": "enfant",
+    "subcategory": "garcons",
+    "subSubcategory": "pantalons-jeans-garcons",
+    "images": [
+      "https://images.unsplash.com/photo-1560506840-ec148e82a604?w=800&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Bleu délavé",
+        "hex": "#6495ED",
+        "available": true,
+        "images": [
+          "https://images.unsplash.com/photo-1560506840-ec148e82a604?w=800&q=80"
+        ]
+      }
+    ],
+    "sizes": [
+      {
+        "size": "4A",
+        "stock": 10
+      },
+      {
+        "size": "6A",
+        "stock": 14
+      },
+      {
+        "size": "8A",
+        "stock": 12
+      },
+      {
+        "size": "10A",
+        "stock": 8
+      },
+      {
+        "size": "12A",
+        "stock": 5
+      }
+    ],
+    "variants": [
+      {
+        "color": "Bleu délavé",
+        "size": "4A",
+        "stock": 10,
+        "sku": "11626cf2-BLE-4A"
+      },
+      {
+        "color": "Bleu délavé",
+        "size": "6A",
+        "stock": 14,
+        "sku": "11626cf2-BLE-6A"
+      },
+      {
+        "color": "Bleu délavé",
+        "size": "8A",
+        "stock": 12,
+        "sku": "11626cf2-BLE-8A"
+      },
+      {
+        "color": "Bleu délavé",
+        "size": "10A",
+        "stock": 8,
+        "sku": "11626cf2-BLE-10A"
+      },
+      {
+        "color": "Bleu délavé",
+        "size": "12A",
+        "stock": 5,
+        "sku": "11626cf2-BLE-12A"
+      }
+    ],
+    "description": "Jean slim en denim souple avec taille ajustable par élastique intérieur.",
+    "details": [
+      "Denim souple",
+      "Taille ajustable",
+      "5 poches"
+    ],
+    "newArrival": true,
+    "featured": false,
+    "created_at": "2026-04-16T21:45:07.101897+00:00",
+    "updated_at": "2026-04-16T21:45:07.101899+00:00",
+    "lowStockThreshold": 10
+  },
+  {
+    "id": "25065999-0831-4693-8eba-1004eab056cd",
+    "name": "Veste Bomber Enfant",
+    "brand": "Style Jeunesse",
+    "price": 44.99,
+    "category": "enfant",
+    "subcategory": "garcons",
+    "subSubcategory": "vestes-garcons",
+    "images": [
+      "https://images.unsplash.com/photo-1576871337622-98d48d1cf531?w=800&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Bleu Marine",
+        "hex": "#001f3f",
+        "available": true,
+        "images": [
+          "https://images.unsplash.com/photo-1576871337622-98d48d1cf531?w=800&q=80"
+        ]
+      }
+    ],
+    "sizes": [
+      {
+        "size": "4A",
+        "stock": 7
+      },
+      {
+        "size": "6A",
+        "stock": 10
+      },
+      {
+        "size": "8A",
+        "stock": 9
+      },
+      {
+        "size": "10A",
+        "stock": 6
+      }
+    ],
+    "variants": [
+      {
+        "color": "Bleu Marine",
+        "size": "4A",
+        "stock": 7,
+        "sku": "25065999-BLE-4A"
+      },
+      {
+        "color": "Bleu Marine",
+        "size": "6A",
+        "stock": 10,
+        "sku": "25065999-BLE-6A"
+      },
+      {
+        "color": "Bleu Marine",
+        "size": "8A",
+        "stock": 9,
+        "sku": "25065999-BLE-8A"
+      },
+      {
+        "color": "Bleu Marine",
+        "size": "10A",
+        "stock": 6,
+        "sku": "25065999-BLE-10A"
+      }
+    ],
+    "description": "Veste bomber matelassée légère. Fermeture éclair et poches latérales.",
+    "details": [
+      "Polyester matelassé",
+      "Doublure polaire",
+      "Fermeture éclair"
+    ],
+    "newArrival": true,
+    "featured": false,
+    "created_at": "2026-04-16T21:45:07.102108+00:00",
+    "updated_at": "2026-04-16T21:45:07.102110+00:00",
+    "lowStockThreshold": 10
+  },
+  {
+    "id": "5a71f0a1-6786-42a9-b99a-38c67bce3111",
+    "name": "Body Coton Bio Étoiles",
+    "brand": "Bébé Doux",
+    "price": 12.99,
+    "category": "enfant",
+    "subcategory": "bebe",
+    "subSubcategory": "bodies-grenouilleres",
+    "images": [
+      "https://images.unsplash.com/photo-1522771930-78848d9293e8?w=800&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Écru",
+        "hex": "#FAF0E6",
+        "available": true,
+        "images": [
+          "https://images.unsplash.com/photo-1522771930-78848d9293e8?w=800&q=80"
+        ]
+      }
+    ],
+    "sizes": [
+      {
+        "size": "3M",
+        "stock": 15
+      },
+      {
+        "size": "6M",
+        "stock": 18
+      },
+      {
+        "size": "12M",
+        "stock": 14
+      },
+      {
+        "size": "18M",
+        "stock": 10
+      }
+    ],
+    "variants": [
+      {
+        "color": "Écru",
+        "size": "3M",
+        "stock": 15,
+        "sku": "5a71f0a1-ÉCR-3M"
+      },
+      {
+        "color": "Écru",
+        "size": "6M",
+        "stock": 18,
+        "sku": "5a71f0a1-ÉCR-6M"
+      },
+      {
+        "color": "Écru",
+        "size": "12M",
+        "stock": 14,
+        "sku": "5a71f0a1-ÉCR-12M"
+      },
+      {
+        "color": "Écru",
+        "size": "18M",
+        "stock": 10,
+        "sku": "5a71f0a1-ÉCR-18M"
+      }
+    ],
+    "description": "Body à manches longues en coton bio certifié GOTS. Boutons-pression entrejambe.",
+    "details": [
+      "Coton bio GOTS",
+      "Boutons-pression",
+      "Manches longues"
+    ],
+    "newArrival": true,
+    "featured": false,
+    "created_at": "2026-04-16T21:45:07.102313+00:00",
+    "updated_at": "2026-04-16T21:45:07.102314+00:00",
+    "lowStockThreshold": 10
+  },
+  {
+    "id": "82e52874-1edd-4565-869d-5585ff4ef90e",
+    "name": "Pyjama Velours Ourson",
+    "brand": "Bébé Doux",
+    "price": 19.99,
+    "category": "enfant",
+    "subcategory": "bebe",
+    "subSubcategory": "pyjamas-bebe",
+    "images": [
+      "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?w=800&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Beige",
+        "hex": "#F5F5DC",
+        "available": true,
+        "images": [
+          "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?w=800&q=80"
+        ]
+      }
+    ],
+    "sizes": [
+      {
+        "size": "3M",
+        "stock": 10
+      },
+      {
+        "size": "6M",
+        "stock": 14
+      },
+      {
+        "size": "12M",
+        "stock": 12
+      },
+      {
+        "size": "18M",
+        "stock": 8
+      }
+    ],
+    "variants": [
+      {
+        "color": "Beige",
+        "size": "3M",
+        "stock": 10,
+        "sku": "82e52874-BEI-3M"
+      },
+      {
+        "color": "Beige",
+        "size": "6M",
+        "stock": 14,
+        "sku": "82e52874-BEI-6M"
+      },
+      {
+        "color": "Beige",
+        "size": "12M",
+        "stock": 12,
+        "sku": "82e52874-BEI-12M"
+      },
+      {
+        "color": "Beige",
+        "size": "18M",
+        "stock": 8,
+        "sku": "82e52874-BEI-18M"
+      }
+    ],
+    "description": "Pyjama grenouillère en velours doux avec motif ourson. Pieds intégrés.",
+    "details": [
+      "Velours doux",
+      "Pieds intégrés",
+      "Zip avant"
+    ],
+    "newArrival": true,
+    "featured": false,
+    "created_at": "2026-04-16T21:45:07.102519+00:00",
+    "updated_at": "2026-04-16T21:45:07.102521+00:00",
+    "lowStockThreshold": 10
+  },
+  {
+    "id": "b94a703d-6bf1-47e5-9c7e-2e655e4c6531",
+    "name": "Ensemble 3 Pièces Bébé",
+    "brand": "Bébé Doux",
+    "price": 29.99,
+    "category": "enfant",
+    "subcategory": "bebe",
+    "subSubcategory": "ensembles-bebe",
+    "images": [
+      "https://images.unsplash.com/photo-1519689680058-324335c77eba?w=800&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Blanc/Gris",
+        "hex": "#D3D3D3",
+        "available": true,
+        "images": [
+          "https://images.unsplash.com/photo-1519689680058-324335c77eba?w=800&q=80"
+        ]
+      }
+    ],
+    "sizes": [
+      {
+        "size": "3M",
+        "stock": 12
+      },
+      {
+        "size": "6M",
+        "stock": 15
+      },
+      {
+        "size": "12M",
+        "stock": 10
+      }
+    ],
+    "variants": [
+      {
+        "color": "Blanc/Gris",
+        "size": "3M",
+        "stock": 12,
+        "sku": "b94a703d-BLA-3M"
+      },
+      {
+        "color": "Blanc/Gris",
+        "size": "6M",
+        "stock": 15,
+        "sku": "b94a703d-BLA-6M"
+      },
+      {
+        "color": "Blanc/Gris",
+        "size": "12M",
+        "stock": 10,
+        "sku": "b94a703d-BLA-12M"
+      }
+    ],
+    "description": "Ensemble body + pantalon + bonnet assorti en coton bio. Cadeau idéal.",
+    "details": [
+      "Coton bio",
+      "3 pièces",
+      "Coffret cadeau inclus"
+    ],
+    "newArrival": true,
+    "featured": false,
+    "created_at": "2026-04-16T21:45:07.102722+00:00",
+    "updated_at": "2026-04-16T21:45:07.102724+00:00",
+    "lowStockThreshold": 10
+  },
+  {
+    "id": "34f7b801-9c71-4345-a39b-dffd474f4761",
+    "name": "Baskets Lumineuses Enfant",
+    "brand": "Kids Comfort",
+    "price": 39.99,
+    "category": "enfant",
+    "subcategory": "chaussures-enfant",
+    "subSubcategory": "baskets-enfant",
+    "images": [
+      "https://images.unsplash.com/photo-1551107696-a4b0c5a0d9a2?w=800&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Bleu/Vert",
+        "hex": "#00CED1",
+        "available": true,
+        "images": [
+          "https://images.unsplash.com/photo-1551107696-a4b0c5a0d9a2?w=800&q=80"
+        ]
+      }
+    ],
+    "sizes": [
+      {
+        "size": "24",
+        "stock": 8
+      },
+      {
+        "size": "26",
+        "stock": 12
+      },
+      {
+        "size": "28",
+        "stock": 14
+      },
+      {
+        "size": "30",
+        "stock": 10
+      },
+      {
+        "size": "32",
+        "stock": 7
+      }
+    ],
+    "variants": [
+      {
+        "color": "Bleu/Vert",
+        "size": "24",
+        "stock": 8,
+        "sku": "34f7b801-BLE-24"
+      },
+      {
+        "color": "Bleu/Vert",
+        "size": "26",
+        "stock": 12,
+        "sku": "34f7b801-BLE-26"
+      },
+      {
+        "color": "Bleu/Vert",
+        "size": "28",
+        "stock": 14,
+        "sku": "34f7b801-BLE-28"
+      },
+      {
+        "color": "Bleu/Vert",
+        "size": "30",
+        "stock": 10,
+        "sku": "34f7b801-BLE-30"
+      },
+      {
+        "color": "Bleu/Vert",
+        "size": "32",
+        "stock": 7,
+        "sku": "34f7b801-BLE-32"
+      }
+    ],
+    "description": "Baskets avec semelle LED lumineuse. Scratch facile pour l'autonomie.",
+    "details": [
+      "Semelle LED",
+      "Fermeture scratch",
+      "Rechargeable USB"
+    ],
+    "newArrival": true,
+    "featured": false,
+    "created_at": "2026-04-16T21:45:07.102931+00:00",
+    "updated_at": "2026-04-16T21:45:07.102933+00:00",
+    "lowStockThreshold": 10
+  },
+  {
+    "id": "8b651f2a-e5ee-40df-87c4-59206564e5c1",
+    "name": "Sandales Sport Enfant",
+    "brand": "Kids Comfort",
+    "price": 29.99,
+    "category": "enfant",
+    "subcategory": "chaussures-enfant",
+    "subSubcategory": "sandales-enfant",
+    "images": [
+      "https://images.unsplash.com/photo-1560769629-975ec94e6a86?w=800&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Rouge/Noir",
+        "hex": "#8B0000",
+        "available": true,
+        "images": [
+          "https://images.unsplash.com/photo-1560769629-975ec94e6a86?w=800&q=80"
+        ]
+      }
+    ],
+    "sizes": [
+      {
+        "size": "24",
+        "stock": 7
+      },
+      {
+        "size": "26",
+        "stock": 10
+      },
+      {
+        "size": "28",
+        "stock": 12
+      },
+      {
+        "size": "30",
+        "stock": 9
+      }
+    ],
+    "variants": [
+      {
+        "color": "Rouge/Noir",
+        "size": "24",
+        "stock": 7,
+        "sku": "8b651f2a-ROU-24"
+      },
+      {
+        "color": "Rouge/Noir",
+        "size": "26",
+        "stock": 10,
+        "sku": "8b651f2a-ROU-26"
+      },
+      {
+        "color": "Rouge/Noir",
+        "size": "28",
+        "stock": 12,
+        "sku": "8b651f2a-ROU-28"
+      },
+      {
+        "color": "Rouge/Noir",
+        "size": "30",
+        "stock": 9,
+        "sku": "8b651f2a-ROU-30"
+      }
+    ],
+    "description": "Sandales sport avec bout fermé protecteur. Parfaites pour les aventures.",
+    "details": [
+      "Bout fermé",
+      "Semelle antidérapante",
+      "Scratch ajustable"
+    ],
+    "newArrival": true,
+    "featured": false,
+    "created_at": "2026-04-16T21:45:07.103138+00:00",
+    "updated_at": "2026-04-16T21:45:07.103140+00:00",
+    "lowStockThreshold": 10
+  },
+  {
+    "id": "2dfe40d1-e977-4300-b88f-8bb903d9e6e5",
+    "name": "Collier Pendentif Or",
+    "brand": "Bijoux Précieux",
+    "price": 79.99,
+    "category": "accessoires",
+    "subcategory": "bijoux",
+    "subSubcategory": "colliers",
+    "images": [
+      "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=800&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Or",
+        "hex": "#FFD700",
+        "available": true,
+        "images": [
+          "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=800&q=80"
+        ]
+      }
+    ],
+    "sizes": [
+      {
+        "size": "Taille Unique",
+        "stock": 25
+      }
+    ],
+    "variants": [
+      {
+        "color": "Or",
+        "size": "Taille Unique",
+        "stock": 25,
+        "sku": "2dfe40d1-OR-Taille Unique"
+      }
+    ],
+    "description": "Collier chaîne fine avec pendentif géométrique en plaqué or 18k.",
+    "details": [
+      "Plaqué or 18k",
+      "Chaîne 45cm",
+      "Anti-allergique"
+    ],
+    "newArrival": true,
+    "featured": false,
+    "created_at": "2026-04-16T21:45:07.103339+00:00",
+    "updated_at": "2026-04-16T21:45:07.103341+00:00",
+    "lowStockThreshold": 10
+  },
+  {
+    "id": "6dffa56e-da98-4875-9c1f-1e8a4279eeeb",
+    "name": "Bracelet Jonc Argent",
+    "brand": "Bijoux Précieux",
+    "price": 49.99,
+    "category": "accessoires",
+    "subcategory": "bijoux",
+    "subSubcategory": "bracelets",
+    "images": [
+      "https://images.unsplash.com/photo-1573408301185-9146fe634ad0?w=800&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Argent",
+        "hex": "#C0C0C0",
+        "available": true,
+        "images": [
+          "https://images.unsplash.com/photo-1573408301185-9146fe634ad0?w=800&q=80"
+        ]
+      }
+    ],
+    "sizes": [
+      {
+        "size": "Taille Unique",
+        "stock": 30
+      }
+    ],
+    "variants": [
+      {
+        "color": "Argent",
+        "size": "Taille Unique",
+        "stock": 30,
+        "sku": "6dffa56e-ARG-Taille Unique"
+      }
+    ],
+    "description": "Bracelet jonc fin en argent sterling 925. Design épuré et moderne.",
+    "details": [
+      "Argent Sterling 925",
+      "Diamètre 6cm",
+      "Poinçon certifié"
+    ],
+    "newArrival": true,
+    "featured": false,
+    "created_at": "2026-04-16T21:45:07.103705+00:00",
+    "updated_at": "2026-04-16T21:45:07.103707+00:00",
+    "lowStockThreshold": 10
+  },
+  {
+    "id": "23ca6156-e7fa-45a4-8557-a9b0750fa0fb",
+    "name": "Boucles Créoles Or Rose",
+    "brand": "Bijoux Précieux",
+    "price": 39.99,
+    "category": "accessoires",
+    "subcategory": "bijoux",
+    "subSubcategory": "boucles-oreilles",
+    "images": [
+      "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=800&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Or rose",
+        "hex": "#B76E79",
+        "available": true,
+        "images": [
+          "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=800&q=80"
+        ]
+      }
+    ],
+    "sizes": [
+      {
+        "size": "Taille Unique",
+        "stock": 20
+      }
+    ],
+    "variants": [
+      {
+        "color": "Or rose",
+        "size": "Taille Unique",
+        "stock": 20,
+        "sku": "23ca6156-OR -Taille Unique"
+      }
+    ],
+    "description": "Créoles classiques en plaqué or rose. Fermoir à charnière sécurisé.",
+    "details": [
+      "Plaqué or rose",
+      "Diamètre 3cm",
+      "Fermoir à charnière"
+    ],
+    "newArrival": true,
+    "featured": false,
+    "created_at": "2026-04-16T21:45:07.103967+00:00",
+    "updated_at": "2026-04-16T21:45:07.103968+00:00",
+    "lowStockThreshold": 10
+  },
+  {
+    "id": "47f2b895-4491-441a-a5d9-33bbd96f1c40",
+    "name": "Bague Solitaire Zircon",
+    "brand": "Bijoux Précieux",
+    "price": 59.99,
+    "category": "accessoires",
+    "subcategory": "bijoux",
+    "subSubcategory": "bagues",
+    "images": [
+      "https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=800&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Argent cristal",
+        "hex": "#E8E8E8",
+        "available": true,
+        "images": [
+          "https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=800&q=80"
+        ]
+      }
+    ],
+    "sizes": [
+      {
+        "size": "50",
+        "stock": 8
+      },
+      {
+        "size": "52",
+        "stock": 10
+      },
+      {
+        "size": "54",
+        "stock": 12
+      },
+      {
+        "size": "56",
+        "stock": 8
+      }
+    ],
+    "variants": [
+      {
+        "color": "Argent cristal",
+        "size": "50",
+        "stock": 8,
+        "sku": "47f2b895-ARG-50"
+      },
+      {
+        "color": "Argent cristal",
+        "size": "52",
+        "stock": 10,
+        "sku": "47f2b895-ARG-52"
+      },
+      {
+        "color": "Argent cristal",
+        "size": "54",
+        "stock": 12,
+        "sku": "47f2b895-ARG-54"
+      },
+      {
+        "color": "Argent cristal",
+        "size": "56",
+        "stock": 8,
+        "sku": "47f2b895-ARG-56"
+      }
+    ],
+    "description": "Bague solitaire avec zircon cubique taillé brillant. Argent 925 rhodié.",
+    "details": [
+      "Argent 925 rhodié",
+      "Zircon cubique",
+      "Écrin inclus"
+    ],
+    "newArrival": true,
+    "featured": false,
+    "created_at": "2026-04-16T21:45:07.104183+00:00",
+    "updated_at": "2026-04-16T21:45:07.104185+00:00",
+    "lowStockThreshold": 10
+  },
+  {
+    "id": "562d17b6-9be6-46d2-a897-a631eda859f6",
+    "name": "Montre Automatique Classique",
+    "brand": "Temps Élégant",
+    "price": 299.99,
+    "category": "accessoires",
+    "subcategory": "montres",
+    "subSubcategory": "montres-classiques",
+    "images": [
+      "https://images.unsplash.com/photo-1524592094714-0f0654e20314?w=800&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Cuir marron",
+        "hex": "#8B4513",
+        "available": true,
+        "images": [
+          "https://images.unsplash.com/photo-1524592094714-0f0654e20314?w=800&q=80"
+        ]
+      }
+    ],
+    "sizes": [
+      {
+        "size": "Taille Unique",
+        "stock": 10
+      }
+    ],
+    "variants": [
+      {
+        "color": "Cuir marron",
+        "size": "Taille Unique",
+        "stock": 10,
+        "sku": "562d17b6-CUI-Taille Unique"
+      }
+    ],
+    "description": "Montre automatique avec cadran blanc et bracelet cuir. Mouvement japonais.",
+    "details": [
+      "Mouvement automatique",
+      "Verre saphir",
+      "Étanche 50m"
+    ],
+    "newArrival": true,
+    "featured": false,
+    "created_at": "2026-04-16T21:45:07.104387+00:00",
+    "updated_at": "2026-04-16T21:45:07.104389+00:00",
+    "lowStockThreshold": 10
+  },
+  {
+    "id": "747c18d8-9af2-453d-9922-9a8864f975a3",
+    "name": "Montre Sport Chronographe",
+    "brand": "Temps Élégant",
+    "price": 199.99,
+    "category": "accessoires",
+    "subcategory": "montres",
+    "subSubcategory": "montres-sport",
+    "images": [
+      "https://images.unsplash.com/photo-1523170335258-f5ed11844a49?w=800&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Noir",
+        "hex": "#000000",
+        "available": true,
+        "images": [
+          "https://images.unsplash.com/photo-1523170335258-f5ed11844a49?w=800&q=80"
+        ]
+      }
+    ],
+    "sizes": [
+      {
+        "size": "Taille Unique",
+        "stock": 15
+      }
+    ],
+    "variants": [
+      {
+        "color": "Noir",
+        "size": "Taille Unique",
+        "stock": 15,
+        "sku": "747c18d8-NOI-Taille Unique"
+      }
+    ],
+    "description": "Chronographe sportif avec bracelet silicone. Étanche 100m.",
+    "details": [
+      "Chronographe",
+      "Bracelet silicone",
+      "Étanche 100m"
+    ],
+    "newArrival": true,
+    "featured": false,
+    "created_at": "2026-04-16T21:45:07.104625+00:00",
+    "updated_at": "2026-04-16T21:45:07.104631+00:00",
+    "lowStockThreshold": 10
+  },
+  {
+    "id": "08faed79-741e-40b2-9f46-4a111a7ebb54",
+    "name": "Lunettes de Soleil Aviateur",
+    "brand": "Vision Luxe",
+    "price": 129.99,
+    "category": "accessoires",
+    "subcategory": "lunettes",
+    "subSubcategory": "lunettes-soleil",
+    "images": [
+      "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=800&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Or/Vert",
+        "hex": "#FFD700",
+        "available": true,
+        "images": [
+          "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=800&q=80"
+        ]
+      }
+    ],
+    "sizes": [
+      {
+        "size": "Taille Unique",
+        "stock": 18
+      }
+    ],
+    "variants": [
+      {
+        "color": "Or/Vert",
+        "size": "Taille Unique",
+        "stock": 18,
+        "sku": "08faed79-OR/-Taille Unique"
+      }
+    ],
+    "description": "Lunettes aviateur avec verres polarisés UV400. Monture métal doré.",
+    "details": [
+      "Verres polarisés UV400",
+      "Monture métal",
+      "Étui rigide inclus"
+    ],
+    "newArrival": true,
+    "featured": false,
+    "created_at": "2026-04-16T21:45:07.104879+00:00",
+    "updated_at": "2026-04-16T21:45:07.104882+00:00",
+    "lowStockThreshold": 10
+  },
+  {
+    "id": "099bf5a3-1ee6-428a-80cc-7656c500a70d",
+    "name": "Lunettes Optiques Rondes",
+    "brand": "Vision Luxe",
+    "price": 89.99,
+    "category": "accessoires",
+    "subcategory": "lunettes",
+    "subSubcategory": "lunettes-optiques",
+    "images": [
+      "https://images.unsplash.com/photo-1574258495973-f010dfbb5371?w=800&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Écaille",
+        "hex": "#8B4513",
+        "available": true,
+        "images": [
+          "https://images.unsplash.com/photo-1574258495973-f010dfbb5371?w=800&q=80"
+        ]
+      }
+    ],
+    "sizes": [
+      {
+        "size": "Taille Unique",
+        "stock": 14
+      }
+    ],
+    "variants": [
+      {
+        "color": "Écaille",
+        "size": "Taille Unique",
+        "stock": 14,
+        "sku": "099bf5a3-ÉCA-Taille Unique"
+      }
+    ],
+    "description": "Monture ronde vintage en acétate. Légère et confortable pour un usage quotidien.",
+    "details": [
+      "Acétate premium",
+      "Charnières flex",
+      "Verres démo inclus"
+    ],
+    "newArrival": true,
+    "featured": false,
+    "created_at": "2026-04-16T21:45:07.105095+00:00",
+    "updated_at": "2026-04-16T21:45:07.105096+00:00",
+    "lowStockThreshold": 10
+  },
+  {
+    "id": "6230975c-1121-496d-8722-f9d536cc5fa1",
+    "name": "Écharpe Cachemire XXL",
+    "brand": "Luxe Doux",
+    "price": 119.99,
+    "category": "accessoires",
+    "subcategory": "echarpes-foulards",
+    "subSubcategory": "echarpes",
+    "images": [
+      "https://images.unsplash.com/photo-1520903920243-00d872a2d1c9?w=800&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Gris perle",
+        "hex": "#C0C0C0",
+        "available": true,
+        "images": [
+          "https://images.unsplash.com/photo-1520903920243-00d872a2d1c9?w=800&q=80"
+        ]
+      }
+    ],
+    "sizes": [
+      {
+        "size": "Taille Unique",
+        "stock": 12
+      }
+    ],
+    "variants": [
+      {
+        "color": "Gris perle",
+        "size": "Taille Unique",
+        "stock": 12,
+        "sku": "6230975c-GRI-Taille Unique"
+      }
+    ],
+    "description": "Grande écharpe en pur cachemire. Ultra douce et chaude pour l'hiver.",
+    "details": [
+      "100% Cachemire",
+      "200cm x 70cm",
+      "Lavage à la main"
+    ],
+    "newArrival": true,
+    "featured": false,
+    "created_at": "2026-04-16T21:45:07.105301+00:00",
+    "updated_at": "2026-04-16T21:45:07.105302+00:00",
+    "lowStockThreshold": 10
+  },
+  {
+    "id": "a0da944f-f644-4ce6-b1f3-b729c5adee42",
+    "name": "Foulard Soie Imprimé",
+    "brand": "Élégance Paris",
+    "price": 69.99,
+    "category": "accessoires",
+    "subcategory": "echarpes-foulards",
+    "subSubcategory": "foulards",
+    "images": [
+      "https://images.unsplash.com/photo-1573231971438-ed0790ba3cbb?w=800&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Multicolore",
+        "hex": "#FF6347",
+        "available": true,
+        "images": [
+          "https://images.unsplash.com/photo-1573231971438-ed0790ba3cbb?w=800&q=80"
+        ]
+      }
+    ],
+    "sizes": [
+      {
+        "size": "Taille Unique",
+        "stock": 16
+      }
+    ],
+    "variants": [
+      {
+        "color": "Multicolore",
+        "size": "Taille Unique",
+        "stock": 16,
+        "sku": "a0da944f-MUL-Taille Unique"
+      }
+    ],
+    "description": "Foulard carré en soie avec imprimé floral exclusif. Fabriqué en France.",
+    "details": [
+      "100% Soie",
+      "90cm x 90cm",
+      "Ourlet roulotté main"
+    ],
+    "newArrival": true,
+    "featured": false,
+    "created_at": "2026-04-16T21:45:07.105501+00:00",
+    "updated_at": "2026-04-16T21:45:07.105502+00:00",
+    "lowStockThreshold": 10
+  },
+  {
+    "id": "768aa47a-20ef-48be-917c-e5d7f3ea1582",
+    "name": "Ceinture Cuir Pleine Fleur",
+    "brand": "Cuir Premium",
+    "price": 79.99,
+    "category": "accessoires",
+    "subcategory": "ceintures",
+    "subSubcategory": "ceintures-cuir",
+    "images": [
+      "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Marron",
+        "hex": "#8B4513",
+        "available": true,
+        "images": [
+          "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800&q=80"
+        ]
+      }
+    ],
+    "sizes": [
+      {
+        "size": "85",
+        "stock": 6
+      },
+      {
+        "size": "90",
+        "stock": 10
+      },
+      {
+        "size": "95",
+        "stock": 12
+      },
+      {
+        "size": "100",
+        "stock": 8
+      },
+      {
+        "size": "105",
+        "stock": 5
+      }
+    ],
+    "variants": [
+      {
+        "color": "Marron",
+        "size": "85",
+        "stock": 6,
+        "sku": "768aa47a-MAR-85"
+      },
+      {
+        "color": "Marron",
+        "size": "90",
+        "stock": 10,
+        "sku": "768aa47a-MAR-90"
+      },
+      {
+        "color": "Marron",
+        "size": "95",
+        "stock": 12,
+        "sku": "768aa47a-MAR-95"
+      },
+      {
+        "color": "Marron",
+        "size": "100",
+        "stock": 8,
+        "sku": "768aa47a-MAR-100"
+      },
+      {
+        "color": "Marron",
+        "size": "105",
+        "stock": 5,
+        "sku": "768aa47a-MAR-105"
+      }
+    ],
+    "description": "Ceinture en cuir pleine fleur avec boucle en laiton brossé. Fabriquée en Italie.",
+    "details": [
+      "Cuir pleine fleur",
+      "Boucle laiton",
+      "Fabriqué en Italie"
+    ],
+    "newArrival": true,
+    "featured": false,
+    "created_at": "2026-04-16T21:45:07.105701+00:00",
+    "updated_at": "2026-04-16T21:45:07.105703+00:00",
+    "lowStockThreshold": 10
+  },
+  {
+    "id": "290d7fc4-b290-400d-b294-923034d67c2e",
+    "name": "Ceinture Tressée Élastique",
+    "brand": "Urban Chic",
+    "price": 29.99,
+    "category": "accessoires",
+    "subcategory": "ceintures",
+    "subSubcategory": "ceintures-tissu",
+    "images": [
+      "https://images.unsplash.com/photo-1624222247344-550fb60583dc?w=800&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Marine",
+        "hex": "#001f3f",
+        "available": true,
+        "images": [
+          "https://images.unsplash.com/photo-1624222247344-550fb60583dc?w=800&q=80"
+        ]
+      }
+    ],
+    "sizes": [
+      {
+        "size": "Taille Unique",
+        "stock": 20
+      }
+    ],
+    "variants": [
+      {
+        "color": "Marine",
+        "size": "Taille Unique",
+        "stock": 20,
+        "sku": "290d7fc4-MAR-Taille Unique"
+      }
+    ],
+    "description": "Ceinture tressée élastique multi-tailles. Confortable et polyvalente.",
+    "details": [
+      "Tissu tressé élastique",
+      "S'adapte à toutes les tailles",
+      "Boucle métal"
+    ],
+    "newArrival": true,
+    "featured": false,
+    "created_at": "2026-04-16T21:45:07.105918+00:00",
+    "updated_at": "2026-04-16T21:45:07.105920+00:00",
+    "lowStockThreshold": 10
+  }
+]

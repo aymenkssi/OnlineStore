@@ -1,0 +1,62 @@
+services:
+  mongodb:
+    image: mongo:7
+    container_name: onlinestore-mongodb
+    restart: always
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: onlinestore_admin
+      MONGO_INITDB_ROOT_PASSWORD: Aymenkabildridikssi!1807
+      MONGO_INITDB_DATABASE: onlinestore_db
+    volumes:
+      - mongo_data:/data/db
+    networks:
+      - internal
+
+  backend:
+    build: ./backend
+    container_name: onlinestore-backend
+    restart: always
+    env_file:
+      - ./backend/.env
+    volumes:
+      - ./backend/uploads:/app/uploads
+      - ./backend/seed_data:/app/seed_data
+    depends_on:
+      - mongodb
+    networks:
+      - internal
+      - web
+    labels:
+      - traefik.enable=true
+      - traefik.docker.network=web
+      - traefik.http.routers.onlinestore-api.rule=(Host(`uptimekuma.store`) || Host(`www.uptimekuma.store`)) && PathPrefix(`/api`)
+      - traefik.http.routers.onlinestore-api.priority=100
+      - traefik.http.routers.onlinestore-api.entrypoints=websecure
+      - traefik.http.routers.onlinestore-api.tls.certresolver=letsencrypt
+      - traefik.http.services.onlinestore-api.loadbalancer.server.port=8001
+
+  frontend:
+    build: ./frontend
+    container_name: onlinestore-frontend
+    restart: always
+    depends_on:
+      - backend
+    networks:
+      - web
+    labels:
+      - traefik.enable=true
+      - traefik.docker.network=web
+      - traefik.http.routers.onlinestore.rule=Host(`uptimekuma.store`) || Host(`www.uptimekuma.store`)
+      - traefik.http.routers.onlinestore.priority=1
+      - traefik.http.routers.onlinestore.entrypoints=websecure
+      - traefik.http.routers.onlinestore.tls.certresolver=letsencrypt
+      - traefik.http.services.onlinestore.loadbalancer.server.port=80
+
+volumes:
+  mongo_data:
+
+networks:
+  web:
+    external: true
+  internal:
+    driver: bridge
